@@ -1,0 +1,6 @@
+appId: com.vblast.flipaclip
+tags:
+  - subscription
+---
+- tapOn: FlipaClip Plus
+- assertVisible: Yearly

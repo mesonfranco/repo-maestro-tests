@@ -1,0 +1,12 @@
+appId: com.vblast.flipaclip
+tags:
+  - settings
+---
+- launchApp: com.vblast.flipaclip
+- tapOn: Settings
+- tapOn: App Settings
+- tapOn: Make Movie File Override
+- tapOn: Settings
+- tapOn: Back
+
+

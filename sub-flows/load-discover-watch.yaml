@@ -1,0 +1,13 @@
+appId: com.vblast.flipaclip
+tags:
+  - discover
+  - watch
+  - backend
+---
+- launchApp: com.vblast.flipaclip
+- tapOn:
+    id: llDiscover
+- assertVisible: Challenges
+- tapOn:
+    id: llWatch
+- assertVisible: Play

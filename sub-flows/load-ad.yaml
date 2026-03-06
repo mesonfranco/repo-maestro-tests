@@ -1,0 +1,15 @@
+appId: com.vblast.flipaclip
+tags:
+  - ads
+---
+- tapOn: Audio
+- tapOn: Add Audio
+- tapOn: Add Audio
+- repeat:
+    while:
+      notVisible: WATCH AD
+    commands:
+      - extendedWaitUntil:
+          visible: WATCH AD
+          timeout: 15000
+- tapOn: NO, THANKS

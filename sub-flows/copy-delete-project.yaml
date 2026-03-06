@@ -1,0 +1,14 @@
+appId: com.vblast.flipaclip
+tags:
+  - project
+---
+- launchApp: com.vblast.flipaclip
+- longPressOn:
+    id: coverImage
+    index: 1
+- tapOn: Duplicate
+- longPressOn:
+    id: coverImage
+    index: 1
+- tapOn: Delete
+- tapOn: DELETE

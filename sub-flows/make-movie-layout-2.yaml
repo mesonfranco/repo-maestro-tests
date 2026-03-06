@@ -1,0 +1,33 @@
+appId: com.vblast.flipaclip
+tags: 
+  - project
+  - makeMovie
+env:
+  PROJECT: "My Project 2"
+---
+- launchApp: com.vblast.flipaclip
+- tapOn: Add Project
+#- tapOn: Classic
+- tapOn: Name your animation
+- inputText: ${PROJECT}
+- tapOn: Back
+- tapOn: CREATE PROJECT
+- repeat:
+    times: 11
+    commands:
+      - tapOn: Add Frame
+- tapOn: Project options
+- tapOn: MAKE MOVIE
+- runFlow:
+    when:
+      visible: We need your permission to delete the existing movie. Please allow to continue.
+    commands:
+      - tapOn: ALLOW
+- runFlow:
+    when:
+      visible: Allow FlipaClip to delete this video?
+    commands:
+      - tapOn: Allow
+- tapOn: MAKE MOVIE
+- assertVisible: Share
+

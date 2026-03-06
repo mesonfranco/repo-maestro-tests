@@ -1,0 +1,19 @@
+appId: com.vblast.flipaclip
+tags:
+  - project
+  - search
+env:
+  PROJECT: "squirrel"
+---
+- launchApp: com.vblast.flipaclip
+- tapOn:
+    id: llSearch
+- tapOn: Search projects, movies, and articles...
+- inputText: ${PROJECT}
+- swipe:
+    from:
+      id: menuView
+    direction: LEFT
+- assertVisible:
+    id: ivEdit
+

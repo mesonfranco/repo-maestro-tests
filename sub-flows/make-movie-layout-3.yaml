@@ -1,0 +1,32 @@
+appId: com.vblast.flipaclip
+tags:
+  - project
+  - makeMovie
+---
+- launchApp: com.vblast.flipaclip
+- setPermissions:
+    permissions:
+      storage: allow
+- tapOn: Add Project
+- tapOn: Beta Version (NEW)
+- tapOn: Name your animation
+- inputText: Layout 3
+- tapOn: Back
+- tapOn: CREATE PROJECT
+- swipe:
+    start: "50%, 50%"
+    end: "70%,70%"
+    duration: 1000
+- tapOn: Share
+- tapOn: MAKE MOVIE
+- runFlow:
+    when:
+      visible: We need your permission to delete the existing movie. Please allow to continue.
+    commands:
+      - tapOn: ALLOW
+- runFlow:
+    when:
+      visible: Allow FlipaClip to delete this video?
+    commands:
+      - tapOn: Allow
+- assertVisible: Share

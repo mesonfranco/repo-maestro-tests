@@ -1,0 +1,25 @@
+appId: com.vblast.flipaclip
+tags:
+  - project
+---
+- launchApp: com.vblast.flipaclip
+- longPressOn:
+    id: Image1 #0
+- tapOn: Edit
+- tapOn: Name your animation
+- inputText: "1"
+- tapOn: Back
+- tapOn: Presets
+- tapOn:
+    id: backgroundImage
+    index: 3
+- tapOn: Back
+- tapOn: Choose frames per second
+- swipe:
+    from:
+      id: numberpicker_input
+    direction: UP
+- tapOn: Back
+- tapOn: SAVE CHANGES
+- assertVisible:
+    id: navLogo

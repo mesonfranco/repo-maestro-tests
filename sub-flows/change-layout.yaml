@@ -1,0 +1,11 @@
+appId: com.vblast.flipaclip
+tags:
+  - settings
+---
+- launchApp: com.vblast.flipaclip
+- tapOn: Settings
+- tapOn: App Settings
+- tapOn: Stage Redesign
+- tapOn: Back
+- tapOn: Settings
+

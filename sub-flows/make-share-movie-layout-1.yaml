@@ -1,0 +1,36 @@
+appId: com.vblast.flipaclip
+tags:
+  - makeMovie
+---
+- launchApp : com.vblast.flipaclip
+- setPermissions:
+    permissions:
+      storage: allow
+- tapOn: Add Project
+- tapOn: Classic
+- tapOn: Name your animation
+- inputText: Layout 1
+- tapOn: Back
+- tapOn: CREATE PROJECT
+- runFlow: load-ad.yaml
+- repeat:
+    times: 11
+    commands:
+      - tapOn: Add Frame
+- tapOn: Project options
+- tapOn: MAKE MOVIE
+- runFlow:
+    when:
+      visible: We need your permission to delete the existing movie. Please allow to continue.
+    commands:
+      - tapOn: ALLOW
+- runFlow:
+    when:
+      visible: Allow FlipaClip to delete this video?
+    commands:
+      - tapOn: Allow
+- tapOn: Share
+- tapOn: YouTube
+- tapOn: SHARE
+- tapOn: Upload complete!
+
