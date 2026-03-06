@@ -1,0 +1,12 @@
+appId: com.vblast.flipaclip
+tags:
+  - smokeTest
+---
+- runFlow: "../sub-flows/welcome-flow-prod.yaml"
+- runFlow: "../sub-flows/change-layout.yaml"
+- runFlow: "../sub-flows/override-movies.yaml"
+- runFlow: "../sub-flows/login-youtube.yaml"
+- runFlow: master-make-movies.yaml
+- runFlow: "../sub-flows/copy-delete-project.yaml"
+- runFlow: "../sub-flows/load-discover-watch.yaml"
+- runFlow: "../sub-flows/search.yaml"
