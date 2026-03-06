@@ -1,0 +1,10 @@
+appId: com.vblast.flipaclip
+tags:
+  - settings
+---
+- launchApp:
+    clearState: true
+- tapOn: Settings
+- tapOn: App Settings
+- tapOn:
+    id: switch_button

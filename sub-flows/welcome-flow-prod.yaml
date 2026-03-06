@@ -13,6 +13,8 @@ tags:
     end: 80%, 50%
     duration: 70
 - tapOn: Continue
+- tapOn:
+    id: closeAction
 - tapOn: I want to learn how to animate
 - tapOn: Continue
 - tapOn: Close
