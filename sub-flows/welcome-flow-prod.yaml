@@ -13,8 +13,12 @@ tags:
     end: 80%, 50%
     duration: 70
 - tapOn: Continue
+- tapOn:
+    id: closeAction
 - tapOn: I want to learn how to animate
 - tapOn: Continue
 - tapOn: Close
 - assertVisible:
     id: navLogo
+- takeScreenshot:
+  -path: ./screenshot/home_after_welcome_flow_png"
