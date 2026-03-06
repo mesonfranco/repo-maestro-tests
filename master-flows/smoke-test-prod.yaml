@@ -1,0 +1,16 @@
+appId: com.vblast.flipaclip
+tags:
+  - smoke
+  - prod
+---
+- launchApp:
+    clearState: true
+- runFlow: "../sub-flows/welcome-flow-prod.yaml"
+- runFlow: "../sub-flows/override-movies.yaml"
+- runFlow: "../sub-flows/change-layout.yaml"
+- runFlow: "../sub-flows/login-youtube.yaml"
+- runFlow: "../sub-flows/make-movie-standard.yaml"
+- runFlow: "../sub-flows/change-layout.yaml"
+- runFlow: "../sub-flows/make-movie-layout-2.yaml"
+- runFlow: "../sub-flows/load-discover-watch.yaml"
+- runFlow: "../sub-flows/search.yaml"
