@@ -20,5 +20,3 @@ tags:
 - tapOn: Close
 - assertVisible:
     id: navLogo
-- takeScreenshot:
-  -path: ./screenshot/home_after_welcome_flow_png"
