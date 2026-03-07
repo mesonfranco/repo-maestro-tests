@@ -5,9 +5,9 @@ tags:
   - backend
 ---
 - launchApp: com.vblast.flipaclip
-- tapOn:
-    id: llDiscover
-- assertVisible: Challenges
-- tapOn:
-    id: llWatch
+- tapOn: WATCH
 - assertVisible: Play
+- assertVisible: FlipaClip
+- takeScreenshot:
+    path: "screenshots/load-watch-section"
+
