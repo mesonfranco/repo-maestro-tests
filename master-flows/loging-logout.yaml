@@ -1,0 +1,7 @@
+appId: com.vblast.flipaclip
+tags:
+  - account
+  - settings 
+---
+- runFlow: "../sub-flows/login-settings.yaml"
+- runFlow: "../sub-flows/logout.yaml"
