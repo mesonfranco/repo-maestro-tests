@@ -20,3 +20,5 @@ tags:
 - tapOn: Close
 - assertVisible:
     id: navLogo
+- takeScreenshot:
+    path: "screenshots/load-home-after-welcomeFlow"
