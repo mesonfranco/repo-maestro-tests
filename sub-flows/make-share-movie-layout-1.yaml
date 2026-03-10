@@ -1,6 +1,8 @@
 appId: com.vblast.flipaclip
 tags:
   - makeMovie
+env:
+  PROJECT: "My project 1"
 ---
 - launchApp : com.vblast.flipaclip
 - setPermissions:
@@ -9,8 +11,8 @@ tags:
 - tapOn: Add Project
 - tapOn: Classic
 - tapOn: Name your animation
-- inputText: Layout 1
-- tapOn: Back
+- inputText: ${PROJECT}
+- hideKeyboard
 - tapOn: CREATE PROJECT
 - runFlow: load-ad.yaml
 - repeat:

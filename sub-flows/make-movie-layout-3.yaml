@@ -2,6 +2,8 @@ appId: com.vblast.flipaclip
 tags:
   - project
   - makeMovie
+env: 
+  PROJECT: "My project 3"
 ---
 - launchApp: com.vblast.flipaclip
 - setPermissions:
@@ -10,8 +12,8 @@ tags:
 - tapOn: Add Project
 - tapOn: Beta Version (NEW)
 - tapOn: Name your animation
-- inputText: Layout 3
-- tapOn: Back
+- inputText: ${PROJECT}
+- hideKeyboard
 - tapOn: CREATE PROJECT
 - swipe:
     start: "50%, 50%"
