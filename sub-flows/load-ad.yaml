@@ -1,15 +1,23 @@
 appId: com.vblast.flipaclip
 tags:
   - ads
+env:
+  PROJECT: "Load Ad"
 ---
-- tapOn: Audio
+- launchApp: com.vblast.flipaclip
+- tapOn: 
+    id: navCreateProjectButton
+- tapOn: Classic
+- tapOn: 
+    id: projectName
+- inputText: ${PROJECT}
+- tapOn: 
+    id: action_confirm
+- tapOn:
+    id: audioButton
 - tapOn: Add Audio
 - tapOn: Add Audio
-- repeat:
-    while:
-      notVisible: WATCH AD
-    commands:
-      - extendedWaitUntil:
-          visible: WATCH AD
-          timeout: 15000
-- tapOn: NO, THANKS
+- waitForAnimationToEnd:
+    timeout: 15000
+- tapOn: WATCH AD
+- assertNotVisible: This feature is locked!

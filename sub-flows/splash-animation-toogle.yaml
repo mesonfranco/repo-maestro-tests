@@ -2,8 +2,7 @@ appId: com.vblast.flipaclip
 tags:
   - settings
 ---
-- launchApp:
-    clearState: true
+- launchApp: com.vblast.flipaclip
 - tapOn: Settings
 - tapOn: App Settings
 - tapOn:

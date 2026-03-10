@@ -3,36 +3,32 @@ tags:
   - makeMovie
 env:
   PROJECT: "My project 1"
+  MOVIE: "Movie 1"
 ---
 - launchApp : com.vblast.flipaclip
-- setPermissions:
-    permissions:
-      storage: allow
 - tapOn: Add Project
 - tapOn: Classic
 - tapOn: Name your animation
 - inputText: ${PROJECT}
 - hideKeyboard
 - tapOn: CREATE PROJECT
-- runFlow: load-ad.yaml
 - repeat:
     times: 11
     commands:
       - tapOn: Add Frame
-- tapOn: Project options
+- tapOn: Make Movie
+- assertVisible: 12 FRAMES
+- assertVisible: 1 SECOND
+- tapOn:
+    id: movieName
+- eraseText
+- inputText: ${MOVIE}
+- hideKeyboard
 - tapOn: MAKE MOVIE
-- runFlow:
-    when:
-      visible: We need your permission to delete the existing movie. Please allow to continue.
-    commands:
-      - tapOn: ALLOW
-- runFlow:
-    when:
-      visible: Allow FlipaClip to delete this video?
-    commands:
-      - tapOn: Allow
-- tapOn: Share
 - tapOn: YouTube
 - tapOn: SHARE
-- tapOn: Upload complete!
+- assertVisible: Upload complete!
+
+
+
 

@@ -3,6 +3,7 @@ tags:
   - smokeTest
 ---
 - runFlow: "../sub-flows/welcome-flow-qa.yaml"
+- runFlow: "../sub-flows/splash-animation-toogle.yaml"
 - runFlow: "../sub-flows/change-layout.yaml"
 - runFlow: "../sub-flows/override-movies.yaml"
 - runFlow: "../sub-flows/login-youtube.yaml"
@@ -10,6 +11,7 @@ tags:
 - runFlow: "../sub-flows/change-layout.yaml"
 - runFlow: "../sub-flows/make-movie-layout-2.yaml"
 - runFlow: "../sub-flows/make-movie-layout-3.yaml"
+- runFlow: "../sub-flows/load-ad.yaml"
 - runFlow: "../sub-flows/copy-delete-project.yaml"
 - runFlow: "../sub-flows/login-settings.yaml"
 - runFlow: "../sub-flows/logout-settings.yaml"
