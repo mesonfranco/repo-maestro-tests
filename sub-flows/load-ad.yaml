@@ -6,9 +6,6 @@ env:
 ---
 - launchApp: com.vblast.flipaclip
 - tapOn: 
-    id: navCreateProjectButton
-- tapOn: Classic
-- tapOn: 
     id: projectName
 - inputText: ${PROJECT}
 - hideKeyboard

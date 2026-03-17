@@ -11,6 +11,6 @@ tags:
 - runFlow: "../sub-flows/login-youtube.yaml"
 - runFlow: "../sub-flows/make-movie-standard.yaml"
 - runFlow: "../sub-flows/change-layout.yaml"
-- runFlow: "../sub-flows/make-movie-layout-2.yaml"
-- runFlow: "../sub-flows/load-discover-watch.yaml"
+- runFlow: "../sub-flows/make-movie-standard.yaml"
 - runFlow: "../sub-flows/search.yaml"
+- runFlow: "../sub-flows/load-ad.yaml"
