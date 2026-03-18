@@ -15,8 +15,8 @@ tags:
 - tapOn:
     id: closeAction
 - tapOn: Skip
-- assertVisible: ¡Haz tu primera animación!
-- assertVisible: ¡Más de 20 Millones de personas lo hicieron también!
+- assertVisible: はじめてのアニメーション作品を作ろう！
+- assertVisible: 2,000万人以上がもう作っています！
 - tapOn: Close
 - assertVisible: 
     id: navLogo

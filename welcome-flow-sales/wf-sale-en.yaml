@@ -15,8 +15,8 @@ tags:
 - tapOn:
     id: closeAction
 - tapOn: Skip
-- assertVisible: ¡Haz tu primera animación!
-- assertVisible: ¡Más de 20 Millones de personas lo hicieron también!
+- assertVisible: Make your first animation!
+- assertVisible: 20+ Million people made this, too!
 - tapOn: Close
 - assertVisible: 
     id: navLogo

@@ -15,9 +15,8 @@ tags:
 - tapOn:
     id: closeAction
 - tapOn: Skip
-- assertVisible: ¡Haz tu primera animación!
-- assertVisible: ¡Más de 20 Millones de personas lo hicieron también!
+- assertVisible: Создай свою первую анимацию!
+- assertVisible: 20+ миллионов человек также занимаются этим!
 - tapOn: Close
 - assertVisible: 
     id: navLogo
-- runScript: wait.js
