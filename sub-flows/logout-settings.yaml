@@ -1,9 +1,11 @@
 appId: com.vblast.flipaclip
 tags:
+  - account
   - settings
 ---
 - launchApp: com.vblast.flipaclip
 - tapOn: Settings
-- tapOn: App Settings
-- tapOn:
-    id: switch_button
+- tapOn: Accounts
+- tapOn: Flipaclip
+- tapOn: Sign Out
+- assertVisible: Create account

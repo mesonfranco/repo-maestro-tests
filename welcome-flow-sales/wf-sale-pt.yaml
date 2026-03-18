@@ -1,0 +1,23 @@
+appId: com.vblast.flipaclip
+tags:
+  - welcome-flow
+  - sale
+---
+- launchApp:
+    clearState: true
+- setPermissions:
+    permissions:
+      storage: allow
+- tapOn: Have an account? Sign In
+- tapOn: Continue with Google
+- tapOn: argappstoretest@gmail.com
+- assertVisible: START NOW
+- tapOn:
+    id: closeAction
+- tapOn: Skip
+- assertVisible: Faça sua primeira animação!
+- assertVisible: Mais de 20 milhões de pessoas também já fizeram!
+- tapOn: Close
+- assertVisible: 
+    id: navLogo
+- runScript: wait.js

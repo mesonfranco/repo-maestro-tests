@@ -11,7 +11,7 @@ env:
 - tapOn: Add Project
 - tapOn: Name your animation
 - inputText: ${PROJECT} 
-- tapOn: Back
+- hideKeyboard
 - tapOn: CREATE PROJECT
 - repeat:
     times: 11
