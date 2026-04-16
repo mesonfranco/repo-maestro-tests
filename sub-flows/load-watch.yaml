@@ -8,6 +8,4 @@ tags:
 - tapOn: WATCH
 - assertVisible: Play
 - assertVisible: FlipaClip
-- takeScreenshot:
-    path: "screenshots/load-watch-section"
-
+- assertVisible: Submit now

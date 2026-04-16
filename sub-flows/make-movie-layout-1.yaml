@@ -3,21 +3,23 @@ tags:
   - project
   - makeMovie
 env:
-  PROJECT: "My project 3"
-  MOVIE: "Movie 3"
+  PROJECT: "My Project 1"
+  MOVIE: "Movie"
 ---
 - launchApp: com.vblast.flipaclip
 - tapOn: Add Project
-- tapOn: Beta Version (NEW)
+##- tapOn: Classic
 - tapOn: Name your animation
 - inputText: ${PROJECT}
 - hideKeyboard
 - tapOn: CREATE PROJECT
-- swipe:
-    start: "50%, 50%"
-    end: "70%,70%"
-    duration: 1000
-- tapOn: Share
+- repeat:
+    times: 11
+    commands:
+      - tapOn: Add Frame
+- tapOn: Make Movie
+- assertVisible: 12 FRAMES
+- assertVisible: 1 SECOND
 - tapOn:
     id: movieName
 - eraseText

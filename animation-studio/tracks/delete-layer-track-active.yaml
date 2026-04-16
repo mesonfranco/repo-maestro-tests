@@ -1,0 +1,14 @@
+appId: com.vblast.flipaclip
+tags:
+  - timeline
+  - track
+---
+- runFlow: create-layer-track.yaml
+- swipe: 
+    from: 
+        id: contextMenu
+    direction: LEFT
+- tapOn:
+    id: menuItem
+    index: 5
+- assertNotVisible: Layer 2

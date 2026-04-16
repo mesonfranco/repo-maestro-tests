@@ -1,0 +1,63 @@
+appId: com.vblast.flipaclip
+tags:
+  - timeline
+  - group
+---
+- launchApp: com.vblast.flipaclip
+- tapOn:
+    id: coverImage
+    index: 1
+
+- longPressOn:
+    id: contentContainer #0
+- tapOn:
+    id: contentContainer
+    index: 1
+- tapOn:
+    id: contentContainer
+    index: 2
+- tapOn:
+    id: contentContainer
+    index: 3
+- repeat:
+    times: 2
+    commands:
+      - swipe:
+          from: 
+            id: trackList
+          direction: LEFT
+#- swipe:
+#   from:
+#    id: trackList
+# direction: LEFT
+# - swipe:
+#    from:
+#      id: trackList
+#    direction: LEFT
+- tapOn:
+    id: contentContainer
+    index: 1
+- tapOn:
+    id: contentContainer
+    index: 2
+- tapOn:
+    id: contentContainer
+    index: 3
+- tapOn:
+    id: contentContainer
+    index: 4
+- swipe:
+    from:
+      id: trackList
+    direction: LEFT
+- tapOn:
+    id: contentContainer
+    index: 3
+- tapOn:
+    id: contentContainer
+    index: 4
+- tapOn:
+    id: menuItem
+    index: 4
+- assertVisible: Group
+

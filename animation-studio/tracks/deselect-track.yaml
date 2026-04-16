@@ -1,0 +1,9 @@
+appId: com.vblast.flipaclip
+tags:
+  - timeline
+  - track
+---
+- tapOn:
+    id: trackName
+- assertNotVisible:
+    id:checkBoxAction

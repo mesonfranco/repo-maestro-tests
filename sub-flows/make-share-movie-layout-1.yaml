@@ -5,7 +5,7 @@ env:
   PROJECT: "My project 1"
   MOVIE: "Movie 1"
 ---
-- launchApp : com.vblast.flipaclip
+- launchApp: com.vblast.flipaclip
 - tapOn: Add Project
 - tapOn: Classic
 - tapOn: Name your animation
@@ -28,7 +28,3 @@ env:
 - tapOn: YouTube
 - tapOn: SHARE
 - assertVisible: Upload complete!
-
-
-
-

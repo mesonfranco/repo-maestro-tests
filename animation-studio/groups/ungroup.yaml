@@ -1,0 +1,13 @@
+appId: com.vblast.flipaclip
+tags:
+  - timeline
+  - group
+---
+- runFlow: create-group-selecting.yaml
+- swipe:
+    from: 
+      id: contextMenu
+    direction: LEFT
+- tapOn: Ungroup
+- assertNotVisible: Ungroup
+

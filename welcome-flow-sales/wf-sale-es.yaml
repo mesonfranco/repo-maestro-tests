@@ -18,6 +18,6 @@ tags:
 - assertVisible: ¡Haz tu primera animación!
 - assertVisible: ¡Más de 20 Millones de personas lo hicieron también!
 - tapOn: Close
-- assertVisible: 
+- assertVisible:
     id: navLogo
 - runScript: wait.js

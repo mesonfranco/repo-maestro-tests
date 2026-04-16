@@ -7,14 +7,5 @@ tags:
 - launchApp: com.vblast.flipaclip
 - tapOn:
     id: llDiscover
-- assertVisible: 
-    id: iv_image #1
-- repeat:
-    times: 3
-    commands:
-      - swipe:
-          direction: LEFT
-- tapOn: Getting Started
-- assertVisible:
-    id: image #1
+- assertVisible: New!
 

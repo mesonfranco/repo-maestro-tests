@@ -1,0 +1,22 @@
+appId: com.vblast.flipaclip
+tags:
+  - timeline
+  - track
+env:
+  PROJECT: Tracks
+---
+- launchApp: com.vblast.flipaclip
+- tapOn:
+    id: navCreateProjectButton
+- tapOn:
+    id: buttonBeta
+- tapOn:
+    id: projectName
+- inputText: ${PROJECT}
+- hideKeyboard
+- tapOn:
+    id: action_confirm
+- longPressOn: Layer
+- assertVisible:
+    id: checkBoxAction
+

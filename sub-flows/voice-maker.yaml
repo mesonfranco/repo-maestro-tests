@@ -1,0 +1,21 @@
+appId: com.vblast.flipaclip
+tags:
+  - api
+env:
+  PROJECT: Voice-Maker
+---
+- launchApp: com.vblast.flipaclip
+- tapOn:
+    id: navCreateProjectButton
+- tapOn: 
+    id: projectName
+- inputText: ${PROJECT}
+- hideKeyboard
+- tapOn:
+    id: action_confirm
+- tapOn:
+    id: audioButton
+- tapOn:
+    id: actionMidToolbarAddAudio
+- tapOn: Voice maker
+

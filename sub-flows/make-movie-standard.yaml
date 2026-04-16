@@ -1,5 +1,5 @@
 appId: com.vblast.flipaclip
-tags: 
+tags:
   - movies,projects
 env:
   PROJECT: "My Project 1"
@@ -9,8 +9,9 @@ env:
     permissions:
       storage: allow
 - tapOn: Add Project
+##- tapOn: Classic
 - tapOn: Name your animation
-- inputText: ${PROJECT} 
+- inputText: ${PROJECT}
 - hideKeyboard
 - tapOn: CREATE PROJECT
 - repeat:
@@ -24,12 +25,12 @@ env:
     when:
       visible: "We need your permission to delete the existing movie. Please allow to continue."
     commands:
-    - tapOn: ALLOW
+      - tapOn: ALLOW
 - runFlow:
     when:
       visible: "Allow FlipaClip to delete this video?"
     commands:
-    - tapOn: Allow
+      - tapOn: Allow
 - tapOn: YouTube
 - tapOn: SHARE
 - assertVisible: Upload complete!

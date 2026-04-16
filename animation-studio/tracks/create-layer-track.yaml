@@ -1,0 +1,10 @@
+appId: com.vblast.flipaclip
+tags:
+  - timeline
+  - track
+---
+- tapOn: Add
+- tapOn:
+    id: buttonItem #0
+- assertVisible: Layer 2
+      
