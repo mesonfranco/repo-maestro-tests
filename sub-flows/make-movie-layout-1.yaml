@@ -8,16 +8,17 @@ env:
 ---
 - launchApp: com.vblast.flipaclip
 - tapOn: Add Project
-##- tapOn: Classic
 - tapOn: Name your animation
 - inputText: ${PROJECT}
 - hideKeyboard
-- tapOn: CREATE PROJECT
+- tapOn:
+    id: "action_confirm"
 - repeat:
     times: 11
     commands:
       - tapOn: Add Frame
-- tapOn: Make Movie
+- tapOn:
+    id: "actionMakeMovie"
 - assertVisible: 12 FRAMES
 - assertVisible: 1 SECOND
 - tapOn:
@@ -25,5 +26,10 @@ env:
 - eraseText
 - inputText: ${MOVIE}
 - hideKeyboard
-- tapOn: MAKE MOVIE
-- assertVisible: Youtube
+- tapOn:
+    id: "actionBuild"
+- tapOn: "YouTube"
+- tapOn:
+    id: "actionShare"
+- assertVisible: "Upload complete!"
+- assertVisible: "Make sure to follow FlipaClip"

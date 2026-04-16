@@ -8,7 +8,6 @@ env:
 ---
 - launchApp: com.vblast.flipaclip
 - tapOn: Add Project
-##- tapOn: Classic
 - tapOn: Name your animation
 - inputText: ${PROJECT}
 - hideKeyboard
