@@ -1,0 +1,20 @@
+appId: com.vblast.flipaclip
+---
+- launchApp: com.vblast.flipaclip
+- swipe:
+    from:
+        id: stackContainer
+    direction: LEFT
+- longPressOn:
+    id: "coverImage"
+    index: 0
+- tapOn:
+    id: "coverImage"
+    index: 1
+- tapOn:
+    id: "ivDelete"
+- tapOn: "Delete"
+- assertNotVisible:
+    id: "tvActionDescription"
+
+
