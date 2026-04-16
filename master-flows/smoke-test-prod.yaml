@@ -18,4 +18,5 @@ tags:
 - runFlow: "../sub-flows/load-audio-library.yaml"
 - runFlow: "../sub-flows/load-discover.yaml"
 - runFlow: "../sub-flows/load-watch.yaml"
-
+- runFlow: "../sub-flows/load-paywall.yaml"
+- runFlow: "../sub-flows/delete-movie.yaml"
