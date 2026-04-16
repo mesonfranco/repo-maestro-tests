@@ -1,0 +1,7 @@
+appId: com.vblast.flipaclip
+tags:
+  - timeline
+  - track
+---
+- launchApp:
+    clearState: true

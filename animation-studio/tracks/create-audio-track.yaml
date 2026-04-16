@@ -1,0 +1,11 @@
+appId: com.vblast.flipaclip
+tags:
+  - timeline
+  - track
+---
+- tapOn:
+    id: addButton
+- tapOn:
+    id: buttonItem
+    index: 1
+- assertVisible: Audio 1

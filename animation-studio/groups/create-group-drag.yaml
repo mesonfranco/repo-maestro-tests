@@ -1,0 +1,18 @@
+appId: com.vblast.flipaclip
+tags:
+  - timeline
+  - group
+---
+- launchApp: com.vblast.flipaclip
+- tapOn:
+    id: coverImage
+    index: 1
+- tapOn:
+    point: 25%,85%
+- swipe:
+    from:
+      id: endEar
+    direction: RIGHT
+    duration: 4500
+- assertVisible: Loop
+

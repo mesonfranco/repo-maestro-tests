@@ -1,14 +1,14 @@
 appId: com.vblast.flipaclip
-tags: 
+tags:
   - project
   - makeMovie
 env:
   PROJECT: "My Project 2"
-  MOVIE: "Movie 2"
+  MOVIE: "Movie"
 ---
 - launchApp: com.vblast.flipaclip
 - tapOn: Add Project
-- tapOn: Classic
+##- tapOn: Classic
 - tapOn: Name your animation
 - inputText: ${PROJECT}
 - hideKeyboard
@@ -20,11 +20,10 @@ env:
 - tapOn: Share
 - assertVisible: 12 FRAMES
 - assertVisible: 1 SECOND
-- tapOn: 
+- tapOn:
     id: movieName
 - eraseText
 - inputText: ${MOVIE}
 - hideKeyboard
 - tapOn: MAKE MOVIE
 - assertVisible: Youtube
-

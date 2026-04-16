@@ -1,0 +1,14 @@
+appId: com.vblast.flipaclip
+tags:
+  - timeline
+  - track
+---
+- runFlow: create-audio-track.yaml
+- swipe:
+    from:
+      id: contextMenu
+    direction: LEFT
+- tapOn:
+    id: menuItem
+    index: 6
+- assertNotVisible: Audio 1

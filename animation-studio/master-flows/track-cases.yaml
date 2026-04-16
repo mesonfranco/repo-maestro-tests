@@ -1,0 +1,15 @@
+appId: com.vblast.flipaclip
+tags:
+  - master
+  - track
+---
+- runFlow: "../tracks/select-track.yaml"
+- runFlow: "../tracks/deselect-track.yaml"
+- runFlow: "../tracks/create-layer-track.yaml"
+- runFlow: "../tracks/delete-layer-track-selected.yaml"
+- runFlow: "../tracks/delete-layer-track-active.yaml"
+- runFlow: "../tracks/create-audio-track.yaml"
+- runFlow: "../tracks/delete-audio-track-selected.yaml"
+- runFlow: "../tracks/delete-audio-track-active.yaml"
+- runFlow: "../tracks/select-multiple-tracks.yaml"
+- runFlow: "../tracks/deselect-multiple-tracks.yaml"

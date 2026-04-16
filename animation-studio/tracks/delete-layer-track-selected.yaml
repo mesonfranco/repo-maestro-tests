@@ -1,0 +1,12 @@
+appId: com.vblast.flipaclip
+tags:
+  - timeline
+  - track
+---
+- longPressOn:
+    id: trackName
+    index: 0
+- tapOn:
+    id: menuItem
+    index: 5
+- assertNotVisible: Layer 2

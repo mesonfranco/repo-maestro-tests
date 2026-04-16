@@ -1,0 +1,10 @@
+appId: com.vblast.flipaclip
+tags:
+  - timeline
+  - group
+---
+- longPressOn:
+    id: contentContainer
+    index: 1
+- assertVisible:
+    id: selectedCheck
