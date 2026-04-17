@@ -7,5 +7,7 @@ tags:
 - launchApp: com.vblast.flipaclip
 - tapOn: WATCH
 - assertVisible: Play
-- assertVisible: FlipaClip
-- assertVisible: Submit now
+- assertVisible: "Want your story to be"
+- assertVisible: "watched by"
+- tapOn: "millions?"
+- assertVisible: "Submit now"

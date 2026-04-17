@@ -1,0 +1,20 @@
+appId: com.vblast.flipaclip
+env:
+    EMAIL: "franco+405@visualblasters.com"
+    PASS: "123456"
+---
+- launchApp: com.vblast.flipaclip
+- tapOn:
+    id: "actionMenuButton"
+- tapOn: "Accounts"
+- tapOn: "FlipaClip"
+- tapOn: "SIGN IN"
+- tapOn: "Sign in with email"
+- tapOn: "Email address"
+- inputText: ${EMAIL}
+- tapOn: "Password"
+- inputText: ${PASS}
+- hideKeyboard
+- tapOn: "Sign in"
+- assertVisible: "FlipaClip account"
+- assertVisible: "Account information"
