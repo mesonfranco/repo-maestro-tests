@@ -34,6 +34,8 @@ It covers the following cases:
 
 - Create a project with 12 empty frames using the FlipaClip layout 2.
 
+- Create the movie validating the Duration, FPS, and total frames match the movie details.
+
 - Delete movies.
 
 **API**
