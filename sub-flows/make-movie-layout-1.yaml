@@ -9,7 +9,7 @@ env:
 - launchApp: com.vblast.flipaclip
 - setPermissions:
     permissions:
-      storage: allow
+      storage: allo
 - tapOn: Add Project
 - tapOn: Name your animation
 - inputText: ${PROJECT}
