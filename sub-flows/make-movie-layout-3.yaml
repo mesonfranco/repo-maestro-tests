@@ -7,6 +7,9 @@ env:
   MOVIE: "Movie 3"
 ---
 - launchApp: com.vblast.flipaclip
+- setPermissions:
+    permissions:
+      storage: allow
 - tapOn: Add Project
 - tapOn: Beta Version (NEW)
 - tapOn: Name your animation

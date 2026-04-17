@@ -18,4 +18,3 @@ env:
 - tapOn:
     id: actionMidToolbarAddAudio
 - tapOn: Voice maker
-
