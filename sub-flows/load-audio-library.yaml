@@ -20,3 +20,4 @@ env:
 - tapOn: Audio Library
 - assertVisible: Fight - Sound FX
 - assertVisible: Fun - Sound FX
+- tapOn: "Close"

@@ -6,6 +6,7 @@ env:
 - launchApp: com.vblast.flipaclip
 - tapOn:
     id: "actionMenuButton"
+- assertVisible: "Accounts"
 - tapOn: "Accounts"
 - tapOn: "FlipaClip"
 - tapOn: "SIGN IN"
