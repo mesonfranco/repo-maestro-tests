@@ -1,6 +1,6 @@
 appId: com.vblast.flipaclip
 env:
-    EMAIL: "franco+405@visualblasters.com"
+    EMAIL: "jobebo3825@sixoplus.com"
     PASS: "123456"
 ---
 - launchApp: com.vblast.flipaclip
@@ -17,4 +17,5 @@ env:
 - hideKeyboard
 - tapOn: "Sign in"
 - assertVisible: "FlipaClip account"
+- assertVisible: "Account information"
 - assertVisible: "Account information"

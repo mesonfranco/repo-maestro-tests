@@ -31,6 +31,16 @@ env:
 - hideKeyboard
 - tapOn:
     id: "actionBuild"
+- runFlow:
+    when:
+        visible: We need your permission to access photos and media on your device to save your movie.
+    commands:
+        - tapOn: "Allow"
+- runFlow:
+    when:
+        visible:  Allow FlipaClip to delete this video?
+    commands:
+        - tapOn: "Allow"
 - tapOn: "YouTube"
 - tapOn:
     id: "actionShare"

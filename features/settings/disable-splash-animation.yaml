@@ -3,7 +3,7 @@ tags:
   - settings
 ---
 - launchApp: com.vblast.flipaclip
-- tapOn: Settingsrr
+- tapOn: Settings
 - tapOn: App Settings
 - tapOn:
     id: switch_button
