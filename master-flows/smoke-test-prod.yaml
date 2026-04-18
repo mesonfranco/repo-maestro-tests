@@ -5,21 +5,57 @@ tags:
 ---
 - launchApp:
     clearState: true
-- runFlow: "../sub-flows/welcome-flow-prod.yaml"
-- runFlow: "../sub-flows/login-flipaclip-account.yaml"
-- runFlow: "../sub-flows/logout-flipaclip-account.yaml"
-- runFlow: "../sub-flows/disable-splash-animation.yaml"
-- runFlow: "../sub-flows/override-movies.yaml"
-- runFlow: "../sub-flows/change-layout.yaml"
-- runFlow: "../sub-flows/login-youtube.yaml"
-- runFlow: "../sub-flows/make-movie-layout-1.yaml"
-- runFlow: "../sub-flows/change-layout.yaml"
-- runFlow: "../sub-flows/make-movie-layout-2.yaml"
-- runFlow: "../sub-flows/search-project.yaml"
-- runFlow: "../sub-flows/copy-delete-project.yaml"
-- runFlow: "../sub-flows/load-audio-library.yaml"
-- runFlow: "../sub-flows/load-actors.yaml"
-- runFlow: "../sub-flows/load-discover.yaml"
-- runFlow: "../sub-flows/load-watch.yaml"
-- runFlow: "../sub-flows/load-paywall.yaml"
-- runFlow: "../sub-flows/delete-movie.yaml"
+- runFlow:
+    file: "../sub-flows/welcome-flow-prod.yaml"
+    label: "Welcome flow"
+- runFlow:
+    file: "../sub-flows/login-flipaclip-account.yaml"
+    label: "Login FlipaClip account"
+- runFlow:
+    file: "../sub-flows/logout-flipaclip-account.yaml"
+    label: "Logout FlipaClip account"
+- runFlow:
+    file: "../sub-flows/disable-splash-animation.yaml"
+    label: "Disable splash animation"
+- runFlow:
+    file: "../sub-flows/override-movies.yaml"
+    label: "Override movies"
+- runFlow:
+    file: "../sub-flows/change-layout.yaml"
+    label: "Change layout"
+- runFlow:
+    file: "../sub-flows/login-youtube.yaml"
+    label: "Login YouTube account"
+- runFlow:
+    file: "../sub-flows/make-movie-layout-1.yaml"
+    label: "Make movie layout 1"
+- runFlow:
+    file: "../sub-flows/change-layout.yaml"
+    label: "Change layout"
+- runFlow:
+    file: "../sub-flows/make-movie-layout-2.yaml"
+    label: "Make movie layout 2"
+- runFlow:
+    file: "../sub-flows/search-project.yaml"
+    label: "Search project"
+- runFlow:
+    file: "../sub-flows/copy-delete-project.yaml"
+    label: "Copy/delete project"
+- runFlow:
+    file: "../sub-flows/load-audio-library.yaml"
+    label: "Load audio library"
+- runFlow:
+    file: "../sub-flows/load-actors.yaml"
+    label: "Load actors"
+- runFlow:
+    file: "../sub-flows/load-discover.yaml"
+    label: "Load discover"
+- runFlow:
+    file: "../sub-flows/load-watch.yaml"
+    label: "Load watch"
+- runFlow:
+    file: "../sub-flows/load-paywall.yaml"
+    label: "Load paywall"
+- runFlow:
+    file: "../sub-flows/delete-movie.yaml"
+    label: "Delete movie"
