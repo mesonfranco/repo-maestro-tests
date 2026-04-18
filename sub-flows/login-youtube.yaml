@@ -6,8 +6,14 @@ tags:
 - tapOn: Settings
 - tapOn: Accounts
 - tapOn: YouTube
+- runFlow: 
+    when: 
+        visible: "qatest.visualblasters@gmail.com"
+    commands: 
+        - tapOn: "qatest.visualblasters@gmail.com"
 - tapOn: Back
 - tapOn: Back
+
 
 
 

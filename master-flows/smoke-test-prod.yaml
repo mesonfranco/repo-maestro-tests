@@ -18,6 +18,7 @@ tags:
 - runFlow: "../sub-flows/search-project.yaml"
 - runFlow: "../sub-flows/copy-delete-project.yaml"
 - runFlow: "../sub-flows/load-audio-library.yaml"
+- runFlow: "../sub-flows/load-actors.yaml"
 - runFlow: "../sub-flows/load-discover.yaml"
 - runFlow: "../sub-flows/load-watch.yaml"
 - runFlow: "../sub-flows/load-paywall.yaml"

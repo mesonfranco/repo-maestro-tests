@@ -10,7 +10,7 @@ tags:
 - tapOn: Get Started
 - swipe:
     start: 20%, 50%
-    end: 80%, 50%
+    end: 80%, 80%
     duration: 70
 - tapOn: Continue
 - tapOn:
