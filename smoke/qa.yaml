@@ -1,18 +1,24 @@
 appId: com.vblast.flipaclip
 tags:
-  - smokeTest
+  - smoke
+  - prod
 ---
-- runFlow: "../sub-flows/welcome-flow-qa.yaml"
-- runFlow: "../sub-flows/change-layout.yaml"
-- runFlow: "../sub-flows/override-movies.yaml"
-- runFlow: "../sub-flows/login-youtube.yaml"
-- runFlow: "../sub-flows/make-movie-standard.yaml"
-- runFlow: "../sub-flows/make-movie-layout-2.yaml"
-- runFlow: "../sub-flows/make-movie-layout-3.yaml"
-- runFlow: "../sub-flows/copy-delete-project.yaml"
-- runFlow: "../sub-flows/load-discover.yaml"
-- runFlow: "../sub-flows/load-discover.yaml"
-- runFlow: "../sub-flows/load-watch.yaml"
-- runFlow: "../sub-flows/logout-settings.yaml"
-- runFlow: "../sub-flows/search.yaml"
-- runFlow: "../sub-flows/load-ad.yaml"
+- launchApp:
+    clearState: true
+- runFlow: "../features/welcome-flow/qa.yaml"
+- runFlow: "../features/settings/disable-splash-animation.yaml"
+- runFlow: "../features/settings/override-movies.yaml"
+- runFlow: "../features/settings/change-layout.yaml"
+- runFlow: "../features/account/login-flipaclip-account.yaml"
+- runFlow: "../features/account/login-youtube.yaml"
+- runFlow: "../features/project/make-movie-layout-1.yaml"
+- runFlow: "../features/settings/change-layout.yaml"
+- runFlow: "../features/project/make-movie-layout-2.yaml"
+- runFlow: "../features/project/copy-delete-project.yaml"
+- runFlow: "../features/project/search-project.yaml"
+- runFlow: "../features/api/load-audio-library.yaml"
+- runFlow: "../features/api/load-actors.yaml"
+- runFlow: "../features/api/load-discover.yaml"
+- runFlow: "../features/api/load-watch.yaml"
+- runFlow: "../features/subscription/load-paywall.yaml"
+- runFlow: "../features/movie/delete-movie.yaml"
