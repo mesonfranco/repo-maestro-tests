@@ -1,0 +1,9 @@
+appId: com.vblast.flipaclip
+---
+- tapOn: "Settings"
+- tapOn: "App Settings"
+- tapOn: "Debug"
+- tapOn: "Ads Override"
+- tapOn: "FORCE_DISABLE"
+
+
