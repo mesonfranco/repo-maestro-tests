@@ -1,6 +1,6 @@
 appId: com.vblast.flipaclip
 ---
-##- runFlow: "../features/project/create-project.yaml"
+- runFlow: "../features/project/create-project.yaml"
 - tapOn: "Brush"
 - tapOn: "Ruler"
 - takeScreenshot: "../current/ruler-design"
