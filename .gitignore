@@ -1,3 +1,5 @@
 myreport.html
-debug/
-ui-test.sh
+ui-tests.sh
+.maestro/baseline/
+.maestro/current/
+.maestro/diffs/
