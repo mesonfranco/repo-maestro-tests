@@ -16,6 +16,7 @@ env:
 - hideKeyboard
 - tapOn:
     id: "action_confirm"
+- takeScreenshot: "../baseline/legacy-studio"
 - repeat:
     times: 11
     commands:
