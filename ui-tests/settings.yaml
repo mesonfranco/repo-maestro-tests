@@ -1,0 +1,16 @@
+appId: com.vblast.flipaclip
+---
+- launchApp: com.vblast.flipaclip
+- tapOn: "Settings"
+- takeScreenshot: "../current/menu"
+- tapOn: "App Settings"
+- takeScreenshot: "../current/settings"
+- scroll
+- takeScreenshot: "../current/settings-1"
+- tapOn: "Back"
+- tapOn: "Accounts"
+- takeScreenshot: "../current/account"
+- tapOn: "Back"
+- tapOn: "About"
+- takeScreenshot: "../current/about"
+

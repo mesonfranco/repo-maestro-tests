@@ -4,7 +4,7 @@ tags:
   - makeMovie
 env:
   PROJECT: "My Project 1"
-  MOVIE: "Movie"
+  MOVIE: "Movie "
 ---
 - launchApp: com.vblast.flipaclip
 - setPermissions:
@@ -16,7 +16,7 @@ env:
 - hideKeyboard
 - tapOn:
     id: "action_confirm"
-- takeScreenshot: "../baseline/legacy-studio"
+- takeScreenshot: "../current/legacy-studio"
 - repeat:
     times: 11
     commands:
