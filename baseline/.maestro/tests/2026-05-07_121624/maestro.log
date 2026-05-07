@@ -1,0 +1,43 @@
+12:16:24.332 [ INFO] maestro.cli.report.TestDebugReporter.logSystemInfo: Debug output path: /Users/francomeson/repo-maestro-tests/baseline/.maestro/tests/2026-05-07_121624
+12:16:24.333 [ INFO] MAESTRO.logSystemInfo: ---- System Info ----
+12:16:24.333 [ INFO] MAESTRO.logSystemInfo: Maestro Version: 2.2.0
+12:16:24.333 [ INFO] MAESTRO.logSystemInfo: CI: Undefined
+12:16:24.333 [ INFO] MAESTRO.logSystemInfo: OS Name: Mac OS X
+12:16:24.333 [ INFO] MAESTRO.logSystemInfo: OS Version: 26.4.1
+12:16:24.333 [ INFO] MAESTRO.logSystemInfo: Architecture: aarch64
+12:16:24.334 [ INFO] MAESTRO.logSystemInfo: Java Version: 25
+12:16:24.378 [ INFO] MAESTRO.logSystemInfo: Xcode Version: 26.4
+12:16:24.381 [ INFO] MAESTRO.logSystemInfo: Flutter Version: Undefined
+12:16:24.383 [ INFO] MAESTRO.logSystemInfo: Flutter Channel: Undefined
+12:16:24.383 [ INFO] MAESTRO.logSystemInfo: ---------------------
+12:16:24.778 [DEBUG] io.micrometer.common.util.internal.logging.InternalLoggerFactory.newDefaultFactory: Using SLF4J as the default logging framework
+12:16:25.040 [ INFO] maestro.cli.command.TestCommand.runShardSuite: [shard 1] Selected device emulator-5554 using port 7001 with execution plan ExecutionPlan(flowsToRun=[/Users/francomeson/repo-maestro-tests/screenshots/ruler.yaml], sequence=FlowSequence(flows=[], continueOnFailure=true), workspaceConfig=WorkspaceConfig(flows=null, includeTags=null, excludeTags=null, executionOrder=null, baselineBranch=null, notifications=null, disableRetries=false, platform=PlatformConfiguration(android=AndroidConfiguration(disableAnimations=false), ios=IOSConfiguration(disableAnimations=false, snapshotKeyHonorModalViews=null)), testOutputDir=null))
+12:16:30.667 [ INFO] maestro.cli.runner.TestRunner.runSingle$lambda$0: Running flow ruler.yaml...
+12:16:30.708 [ INFO] maestro.Maestro.cachedDeviceInfo_delegate$lambda$0: Getting device info
+12:16:30.887 [ INFO] maestro.Maestro.cachedDeviceInfo_delegate$lambda$0: Got device info: DeviceInfo(platform=ANDROID, widthPixels=1080, heightPixels=2400, widthGrid=1080, heightGrid=2400)
+12:16:30.916 [ INFO] maestro.cli.runner.MaestroCommandRunner.runCommands$lambda$0: Define variables RUNNING
+12:16:30.918 [ INFO] maestro.cli.runner.MaestroCommandRunner.runCommands$lambda$11: Define variables metadata CommandMetadata(numberOfRuns=null, evaluatedCommand=MaestroCommand(defineVariablesCommand=DefineVariablesCommand(env={MAESTRO_IOS_TEAM_ID=ABC123XYZ9, MAESTRO_FILENAME=ruler, MAESTRO_DEVICE_UDID=emulator-5554, MAESTRO_SHARD_ID=1, MAESTRO_SHARD_INDEX=0}, label=null, optional=false)), logMessages=[], insight=Insight(message=, level=NONE), aiReasoning=null, labeledCommand=null)
+12:16:30.918 [ INFO] maestro.cli.runner.MaestroCommandRunner.runCommands$lambda$2: Define variables COMPLETED
+12:16:30.918 [ INFO] maestro.cli.runner.MaestroCommandRunner.runCommands$lambda$0: Apply configuration RUNNING
+12:16:30.919 [ INFO] maestro.cli.runner.MaestroCommandRunner.runCommands$lambda$11: Apply configuration metadata CommandMetadata(numberOfRuns=null, evaluatedCommand=MaestroCommand(applyConfigurationCommand=ApplyConfigurationCommand(config=MaestroConfig(appId=com.vblast.flipaclip, name=null, tags=[], ext={}, onFlowStart=null, onFlowComplete=null, properties={}), label=null, optional=false)), logMessages=[], insight=Insight(message=, level=NONE), aiReasoning=null, labeledCommand=null)
+12:16:30.919 [ INFO] maestro.cli.runner.MaestroCommandRunner.runCommands$lambda$2: Apply configuration COMPLETED
+12:16:30.919 [ INFO] maestro.cli.runner.MaestroCommandRunner.runCommands$lambda$0: Tap on "Brush" RUNNING
+12:16:30.921 [ INFO] maestro.cli.runner.MaestroCommandRunner.runCommands$lambda$11: Tap on "Brush" metadata CommandMetadata(numberOfRuns=null, evaluatedCommand=MaestroCommand(tapOnElementCommand=TapOnElementCommand(selector=ElementSelector(textRegex=Brush, idRegex=null, size=null, below=null, above=null, leftOf=null, rightOf=null, containsChild=null, containsDescendants=null, traits=null, index=null, enabled=null, optional=false, selected=null, checked=null, focused=null, childOf=null, css=null), retryIfNoChange=false, waitUntilVisible=false, longPress=false, repeat=null, waitToSettleTimeoutMs=null, relativePoint=null, label=null, optional=false)), logMessages=[], insight=Insight(message=, level=NONE), aiReasoning=null, labeledCommand=null)
+12:16:31.205 [ INFO] maestro.Maestro.tap-BUbHBYE: Tapping on element:  UiElement(treeNode=TreeNode(attributes={text=, accessibilityText=Brush, hintText=, ignoreBoundsFiltering=false, resource-id=, clickable=false, bounds=[231,190][294,253], enabled=true, focused=false, checked=false, scrollable=false, selected=false, class=android.widget.ImageView, important-for-accessibility=true, error=}, children=[], clickable=false, enabled=true, focused=false, checked=false, selected=false), bounds=Bounds(x=231, y=190, width=63, height=63))
+12:16:32.438 [ INFO] maestro.Maestro.tap-BUbHBYE: Refreshed element
+12:16:32.440 [ INFO] maestro.Maestro.hierarchyBasedTap-hbl3e4M: Tapping at (262, 221) using hierarchy based logic for wait
+12:16:34.538 [ INFO] maestro.Maestro.hierarchyBasedTap-hbl3e4M: Something has changed in the UI judging by view hierarchy. Proceed.
+12:16:34.538 [ INFO] maestro.cli.runner.MaestroCommandRunner.runCommands$lambda$2: Tap on "Brush" COMPLETED
+12:16:34.540 [ INFO] maestro.cli.runner.MaestroCommandRunner.runCommands$lambda$0: Tap on "Ruler" RUNNING
+12:16:34.541 [ INFO] maestro.cli.runner.MaestroCommandRunner.runCommands$lambda$11: Tap on "Ruler" metadata CommandMetadata(numberOfRuns=null, evaluatedCommand=MaestroCommand(tapOnElementCommand=TapOnElementCommand(selector=ElementSelector(textRegex=Ruler, idRegex=null, size=null, below=null, above=null, leftOf=null, rightOf=null, containsChild=null, containsDescendants=null, traits=null, index=null, enabled=null, optional=false, selected=null, checked=null, focused=null, childOf=null, css=null), retryIfNoChange=false, waitUntilVisible=false, longPress=false, repeat=null, waitToSettleTimeoutMs=null, relativePoint=null, label=null, optional=false)), logMessages=[], insight=Insight(message=, level=NONE), aiReasoning=null, labeledCommand=null)
+12:16:34.653 [ INFO] maestro.Maestro.tap-BUbHBYE: Tapping on element:  UiElement(treeNode=TreeNode(attributes={text=, accessibilityText=Ruler, hintText=, ignoreBoundsFiltering=false, resource-id=, clickable=false, bounds=[955,1339][1018,1402], enabled=true, focused=false, checked=false, scrollable=false, selected=false, class=android.widget.ImageView, important-for-accessibility=true, error=}, children=[], clickable=false, enabled=true, focused=false, checked=false, selected=false), bounds=Bounds(x=955, y=1339, width=63, height=63))
+12:16:35.771 [ INFO] maestro.Maestro.tap-BUbHBYE: Refreshed element
+12:16:35.772 [ INFO] maestro.Maestro.hierarchyBasedTap-hbl3e4M: Tapping at (986, 1370) using hierarchy based logic for wait
+12:16:37.608 [ INFO] maestro.Maestro.hierarchyBasedTap-hbl3e4M: Something has changed in the UI judging by view hierarchy. Proceed.
+12:16:37.609 [ INFO] maestro.cli.runner.MaestroCommandRunner.runCommands$lambda$2: Tap on "Ruler" COMPLETED
+12:16:37.610 [ INFO] maestro.cli.runner.MaestroCommandRunner.runCommands$lambda$0: Take screenshot ruler-design RUNNING
+12:16:37.616 [ INFO] maestro.cli.runner.MaestroCommandRunner.runCommands$lambda$11: Take screenshot ruler-design metadata CommandMetadata(numberOfRuns=null, evaluatedCommand=MaestroCommand(takeScreenshotCommand=TakeScreenshotCommand(path=ruler-design, cropOn=null, label=null, optional=false)), logMessages=[], insight=Insight(message=, level=NONE), aiReasoning=null, labeledCommand=null)
+12:16:37.619 [ INFO] maestro.Maestro.takeScreenshot: Taking screenshot
+12:16:37.620 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to output sink
+12:16:38.719 [ INFO] maestro.cli.runner.MaestroCommandRunner.runCommands$lambda$2: Take screenshot ruler-design COMPLETED
+12:16:38.930 [ INFO] maestro.cli.report.TestDebugReporter.deleteOldFiles: Performing purge of logs older than 14 days from /Users/francomeson/repo-maestro-tests/baseline/.maestro/tests

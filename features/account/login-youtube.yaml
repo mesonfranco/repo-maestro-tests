@@ -11,6 +11,7 @@ tags:
         visible: "qatest.visualblasters@gmail.com"
     commands: 
         - tapOn: "qatest.visualblasters@gmail.com"
+- tapOn: Ok
 - tapOn: Back
 - tapOn: Back
 

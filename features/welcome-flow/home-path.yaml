@@ -1,7 +1,7 @@
 appId: com.vblast.flipaclip
 tags:
   - welcomeFlow
-  - qa
+  - prod
 ---
 - launchApp:
     clearState: true
@@ -10,15 +10,12 @@ tags:
 - tapOn: Get Started
 - swipe:
     start: 20%, 50%
-    end: 80%, 50%
+    end: 80%, 80%
     duration: 70
 - tapOn: Continue
-- tapOn: Accept All Cookies
 - tapOn:
     id: closeAction
 - tapOn: I want to learn how to animate
 - tapOn: Continue
-- tapOn: Close
-- assertVisible:
-    id: navLogo
-- takeScreenshot: "../baseline/home"
+- tapOn: "Close"
+- takeScreenshot: "../current/home"

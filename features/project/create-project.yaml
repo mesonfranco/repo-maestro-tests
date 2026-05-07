@@ -1,0 +1,13 @@
+appId: com.vblast.flipaclip
+env:
+    PROJECT: "My Project"
+---
+- tapOn:
+    id: "navCreateProjectBackground"
+- tapOn: "Classic"
+- tapOn: "Name your animation"
+- inputText: ${PROJECT}
+- hideKeyboard
+- tapOn: "CREATE PROJECT"
+
+

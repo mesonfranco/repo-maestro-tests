@@ -1,0 +1,11 @@
+appId: com.vblast.flipaclip
+---
+- runFlow: "../features/project/create-project.yaml"
+- swipe:
+    start: "50%, 50%"
+    end: "70%,70%"
+- tapOn: "Lasso"
+- swipe:
+    start: "50%, 50%"
+    end: "70%,70%"
+- takeScreenshot: "../current/lasso-design"
