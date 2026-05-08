@@ -11,7 +11,7 @@ env:
     permissions:
       storage: allow
 - tapOn: Add Project
-- tapOn: Beta Version (NEW)
+- runFlow: "../features/project/layout-popup-studio"
 - tapOn: Name your animation
 - inputText: ${PROJECT}
 - hideKeyboard
