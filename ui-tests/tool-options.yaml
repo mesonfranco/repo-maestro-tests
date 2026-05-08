@@ -1,0 +1,10 @@
+appId: com.vblast.flipaclip
+---
+- tapOn: "Brush"
+- takeScreenshot: "../current/brush-options"
+- tapOn: "Eraser"
+- takeScreenshot: "../current/eraser-options"
+- tapOn: "Color Fill"
+- takeScreenshot: "../current/fill-options"
+- tapOn: "Text"
+- takeScreenshot: "../current/text-options"
