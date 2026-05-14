@@ -3,29 +3,23 @@ tags:
   - project
   - makeMovie
 env:
-  PROJECT: "My Project 2"
-  MOVIE: "Movie"
+  MOVIE: "Movie 2"
 ---
-- launchApp: com.vblast.flipaclip
 - setPermissions:
     permissions:
       storage: allow
-- tapOn: Add Project
-- tapOn: Name your animation
-- inputText: ${PROJECT}
-- hideKeyboard
-- tapOn: CREATE PROJECT
+- takeScreenshot: "../baseline/studio-layout-2"
 - repeat:
     times: 11
     commands:
       - tapOn: Add Frame
 - tapOn: Share
-- assertVisible: 12 FRAMES
-- assertVisible: 1 SECOND
-- tapOn:
-    id: movieName
+- longPressOn:
+    id: "movieName"
 - eraseText
 - inputText: ${MOVIE}
 - hideKeyboard
+- assertVisible: 12 FRAMES
+- assertVisible: 1 SECOND
 - tapOn: MAKE MOVIE
 - assertVisible: Youtube

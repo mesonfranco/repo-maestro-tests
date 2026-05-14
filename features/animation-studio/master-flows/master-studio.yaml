@@ -3,6 +3,7 @@ tags:
   - master
   - track
 ---
+- runFlow: "../../../features/project/create-studio-project.yaml"
 - runFlow: "../tracks/select-track.yaml"
 - runFlow: "../tracks/deselect-track.yaml"
 - runFlow: "../tracks/create-layer-track.yaml"
