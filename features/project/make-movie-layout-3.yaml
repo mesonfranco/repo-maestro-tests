@@ -8,7 +8,7 @@ env:
 - setPermissions:
     permissions:
       storage: allow
-- takeScreenshot: "../baseline/studio-layout-3"
+- takeScreenshot: "../current/studio-layout-3"
 - swipe:
     start: "50%, 50%"
     end: "70%,70%"

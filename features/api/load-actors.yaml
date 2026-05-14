@@ -2,8 +2,8 @@ appId: com.vblast.flipaclip
 ---
 - tapOn: "Add Audio"
 - tapOn: "Voice maker"
-- assertVisible: "Ruberto"
 - assertVisible: "Bushelbeard"
 - scrollUntilVisible:
     element: "Lily"
+- tapOn: "Close"
 

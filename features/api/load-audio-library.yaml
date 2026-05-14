@@ -1,18 +1,8 @@
 appId: com.vblast.flipaclip
 tags:
   - api
-env:
-  PROJECT: Audio Library
 ---
-- launchApp: com.vblast.flipaclip
-- tapOn:
-    id: navCreateProjectButton
-- tapOn: 
-    id: projectName
-- inputText: ${PROJECT}
-- hideKeyboard
-- tapOn: 
-    id: action_confirm
+- runFlow: "../../features/project/create-classic-project.yaml"
 - tapOn:
     id: audioButton
 - tapOn: 

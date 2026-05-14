@@ -12,7 +12,11 @@ appId: com.vblast.flipaclip
     id: "coverImage"
     index: 1
 - tapOn:
+    id: "coverImage"
+    index: 2
+- tapOn:
     id: "ivDelete"
+
 - tapOn: "Delete"
 - assertNotVisible:
     id: "tvActionDescription"
