@@ -3,20 +3,12 @@ tags:
   - project
   - makeMovie
 env:
-  PROJECT: "My Project 1"
-  MOVIE: "Movie "
+  MOVIE: "Movie 1"
 ---
-- launchApp: com.vblast.flipaclip
 - setPermissions:
     permissions:
       storage: allow
-- tapOn: Add Project
-- tapOn: Name your animation
-- inputText: ${PROJECT}
-- hideKeyboard
-- tapOn:
-    id: "action_confirm"
-- takeScreenshot: "../current/legacy-studio"
+- takeScreenshot: "../baseline/studio-layout-1"
 - repeat:
     times: 11
     commands:
@@ -25,8 +17,8 @@ env:
     id: "actionMakeMovie"
 - assertVisible: 12 FRAMES
 - assertVisible: 1 SECOND
-- tapOn:
-    id: movieName
+- longPressOn:
+    id: "movieName"
 - eraseText
 - inputText: ${MOVIE}
 - hideKeyboard

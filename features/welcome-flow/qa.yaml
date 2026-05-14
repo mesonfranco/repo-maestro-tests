@@ -21,4 +21,4 @@ tags:
 - tapOn: Close
 - assertVisible:
     id: navLogo
-- takeScreenshot: "../current/home"
+- takeScreenshot: "../baseline/home"

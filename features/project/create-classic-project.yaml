@@ -1,13 +1,10 @@
 appId: com.vblast.flipaclip
 env:
-    PROJECT: "My Project"
+  PROJECT: "Legacy project"
 ---
 - launchApp: com.vblast.flipaclip
-- tapOn:
-    id: "navCreateProjectBackground"
+- runFlow: "../popup/layout-classic.yaml"
 - tapOn: "Name your animation"
 - inputText: ${PROJECT}
 - hideKeyboard
 - tapOn: "CREATE PROJECT"
-
-

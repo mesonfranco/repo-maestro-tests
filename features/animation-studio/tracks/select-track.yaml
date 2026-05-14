@@ -1,0 +1,11 @@
+appId: com.vblast.flipaclip
+tags:
+  - timeline
+  - track
+env:
+  PROJECT: Tracks
+---
+- longPressOn: Layer
+- assertVisible:
+    id: checkBoxAction
+
