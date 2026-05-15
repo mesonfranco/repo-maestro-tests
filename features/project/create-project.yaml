@@ -9,5 +9,3 @@ env:
 - inputText: ${PROJECT}
 - hideKeyboard
 - tapOn: "CREATE PROJECT"
-
-

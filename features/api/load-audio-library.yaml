@@ -2,9 +2,8 @@ appId: com.vblast.flipaclip
 tags:
   - api
 ---
-- runFlow: "../../features/project/create-classic-project.yaml"
 - tapOn:
-    id: audioButton
+    id: "actionAudio"
 - tapOn: 
     id: actionMidToolbarAddAudio
 - tapOn: Audio Library

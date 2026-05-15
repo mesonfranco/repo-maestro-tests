@@ -4,9 +4,7 @@ tags:
 ---
 - launchApp: com.vblast.flipaclip
 - tapOn: Settings
-- takeScreenshot: "../current/menu"
 - tapOn: App Settings
-- takeScreenshot: "../current/settings"
 - tapOn: Stage Redesign
 - tapOn: Back
 - tapOn: Settings

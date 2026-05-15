@@ -20,4 +20,4 @@ tags:
 - assertVisible:
     id: "navLogo"
 - assertVisible:
-    id: "bottomNavigationBar"
+    id: "bottomNavigationBarV2"
