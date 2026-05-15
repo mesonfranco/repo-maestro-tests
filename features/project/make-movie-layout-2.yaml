@@ -8,7 +8,7 @@ env:
 - setPermissions:
     permissions:
       storage: allow
-- takeScreenshot: "../baseline/studio-layout-2"
+- takeScreenshot: "../current/studio-layout-2"
 - repeat:
     times: 11
     commands:
