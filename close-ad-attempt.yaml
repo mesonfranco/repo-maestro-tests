@@ -1,0 +1,15 @@
+appId: com.vblast.flipaclip
+---
+##- tapOn: "Audio"
+- tapOn: "Close"
+- waitForAnimationToEnd
+- extendedWaitUntil:
+    visible: "X"
+    timeout: 15000
+- waitForAnimationToEnd
+- extendedWaitUntil:
+    visible: "X"
+    timeout: 15000
+- extendedWaitUntil:
+    visible: "X"
+    timeout: 15000

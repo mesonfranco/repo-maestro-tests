@@ -2,7 +2,8 @@ appId: com.vblast.flipaclip
 ---
 - tapOn: "Add Audio"
 - tapOn: "Voice maker"
-- assertVisible: "Tex"
+- assertVisible: "Ruberto"
+- assertVisible: "Bushelbeard"
+- assertVisible: "Astra-9"
 - tapOn: "Close"
 - tapOn: "Close"
-
