@@ -2,11 +2,9 @@ appId: com.vblast.flipaclip
 tags:
   - api
 ---
-- tapOn:
-    id: "actionAudio"
-- tapOn: 
-    id: actionMidToolbarAddAudio
-- tapOn: Audio Library
-- assertVisible: Fight - Sound FX
-- assertVisible: Fun - Sound FX
+- tapOn: "Audio"
+- tapOn: "Add Audio"
+- tapOn: "Audio Library"
+- assertVisible: "Fight - Sound FX"
+- assertVisible: "Toons - Sound FX"
 - tapOn: "Close"
