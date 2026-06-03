@@ -1,0 +1,12 @@
+appId: com.vblast.flipaclip
+tags:
+  - settings
+---
+- launchApp: com.vblast.flipaclip
+- tapOn: "Settings"
+- tapOn: "App Settings"
+- tapOn: "Legacy V1"
+- tapOn: "Legacy V2"
+- tapOn: "Back"
+- tapOn: "Back"
+- tapOn: "Back"
