@@ -18,12 +18,9 @@ tags:
 - tapOn: I want to learn how to animate
 - tapOn: Continue
 - tapOn: "Play"
-- extendedWaitUntil:
-    visible: ""
-    timeout: 10000
 - tapOn:
     point: "50%,50%"
 - tapOn:
+    point: 50%,50%
+- tapOn:
     id: "closeButton"
-- assertVisible: "Close"
-
