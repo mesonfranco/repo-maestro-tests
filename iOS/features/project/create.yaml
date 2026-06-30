@@ -1,0 +1,10 @@
+appId: com.vblast.flipaclip
+env: 
+  PROJECT: "My Project"
+---
+- launchApp: com.vblast.flipaclip
+- tapOn: "Create project"
+- tapOn: "Name your animation"
+- inputText: ${PROJECT}
+- tapOn: "intro"
+- tapOn: "Create Project"
