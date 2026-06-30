@@ -8,9 +8,9 @@ tags:
 - tapOn: YouTube
 - runFlow: 
     when: 
-        visible: "franco@visualblasters.com"
+        visible: "qatest.visualblasters@gmail.com"
     commands: 
-        - tapOn: "franco@visualblasters.com"
+        - tapOn: "qatest.visualblasters@gmail.com"
 - tapOn: Ok
 - tapOn: Back
 - tapOn: Back

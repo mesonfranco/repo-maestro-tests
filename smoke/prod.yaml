@@ -13,14 +13,15 @@ tags:
 ## App settings
 - runFlow: "../features/settings/disable-splash-animation.yaml"
 - runFlow: "../features/settings/override-movies.yaml"
-- runFlow: "../features/settings/change-layout.yaml"
+- runFlow: "../features/settings/layout-v1.yaml"
 ## Login tests
 - runFlow: "../features/account/login-flipaclip-account.yaml"
 - runFlow: "../features/account/login-youtube.yaml"
 ## Project tests and make movies with the different layouts
 - runFlow: "../features/project/create-project.yaml"
 - runFlow: "../features/project/make-movie-layout-1.yaml"
-- runFlow: "../features/settings/change-layout.yaml"
+- runFlow: "../features/settings/layout-v2.yaml"
+
 - repeat:
     times: 2
     commands:

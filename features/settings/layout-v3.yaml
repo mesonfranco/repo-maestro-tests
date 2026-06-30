@@ -5,8 +5,10 @@ tags:
 - launchApp: com.vblast.flipaclip
 - tapOn: "Settings"
 - tapOn: "App Settings"
-- tapOn: "Legacy V2"
-- tapOn: "Studio"
+- tapOn: "Animation Editor"
+- tapOn:
+    id: "switch_button"
 - tapOn: "Back"
 - tapOn: "Back"
 - tapOn: "Back"
+
