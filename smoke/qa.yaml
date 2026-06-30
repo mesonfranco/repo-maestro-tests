@@ -3,8 +3,7 @@ tags:
   - smoke
   - prod
 ---
-- launchApp:
-    clearState: true
+
 - runFlow: "../features/welcome-flow/qa.yaml"
 - runFlow: "../features/settings/disable-splash-animation.yaml"
 - runFlow: "../features/debug/disable-ads.yaml"
