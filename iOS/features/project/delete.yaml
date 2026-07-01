@@ -1,0 +1,6 @@
+appId: com.vblast.flipaclip
+---
+- launchApp: com.vblast.flipaclip
+- longPressOn:
+    id: "cover.png"
+- tapOn: "delete project"

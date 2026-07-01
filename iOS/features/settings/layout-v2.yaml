@@ -1,0 +1,10 @@
+appId: com.vblast.flipaclip
+---
+- launchApp: com.vblast.flipaclip
+- tapOn: "Settings"
+- tapOn: "App Settings"
+- tapOn: "Animation Editor"
+- tapOn: "Legacy v2"
+- tapOn: "ic back"
+- tapOn: "ic back"
+- tapOn: "ic back"

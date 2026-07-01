@@ -1,0 +1,10 @@
+appId: com.vblast.flipaclip
+---
+- launchApp: com.vblast.flipaclip
+- runFlow: "../features/settings/layout-v1.yaml"
+- runFlow: "../features/project/create.yaml"
+- runFlow: "../features/settings/layout-v2.yaml"
+- runFlow: "../features/project/create.yaml"
+- runFlow: "../features/settings/layout-v3.yaml"
+- runFlow: "../features/project/create.yaml"
+- runFlow: "../features/project/make-movie-layout-3.yaml"

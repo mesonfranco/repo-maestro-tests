@@ -1,0 +1,18 @@
+appId: com.vblast.flipaclip
+env:
+    MOVIE: "Movie 3"
+---
+- swipe:
+    start: "50%, 50%"
+    end: "70%,70%"
+    duration: 1000
+- tapOn:
+    id: "ic_share_ios_24"
+- tapOn: "My Project"
+- eraseText
+- inputText: ${MOVIE}
+- tapOn: "intro"
+- tapOn: "Make Movie"
+- assertVisible: "YouTube"
+- assertVisible: "Save to Photos"
+
