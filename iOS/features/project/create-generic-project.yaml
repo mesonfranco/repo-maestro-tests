@@ -1,10 +1,11 @@
 appId: com.vblast.flipaclip
-env: 
-  PROJECT: "My Project"
+env:
+    PROJECT: Generic Project
 ---
 - launchApp: com.vblast.flipaclip
-- tapOn: "Create project"
+- tapOn: "ic add small"
 - tapOn: "Name your animation"
 - inputText: ${PROJECT}
 - tapOn: "intro"
 - tapOn: "Create Project"
+

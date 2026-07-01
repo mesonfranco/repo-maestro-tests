@@ -1,0 +1,15 @@
+appId: com.example.app
+---
+- runFlow: "../project/create-generic-project.yaml"
+- tapOn: "ic plus 16"
+- tapOn: "Audio track"
+- tapOn:
+    text: "ic plus 16"
+    index: 1
+- tapOn: "Audio Library"
+- assertVisible: "Fight - Sound FX"
+- tapOn: "Make your fight scenes epic!"
+- assertVisible: "Get this complete fight compilation that will set your scenes on fire!"
+- assertVisible: "FlipaClip"
+- tapOn: "ic back"
+- tapOn: "ic close"

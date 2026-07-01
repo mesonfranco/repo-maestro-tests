@@ -1,0 +1,13 @@
+appId: com.vblast.flipaclip
+env:
+    PROJECT: "My Project Layout 1"
+---
+- runFlow: "../settings/layout-v1.yaml"
+- tapOn: "ic add small"
+- tapOn: "Name your animation"
+- inputText: ${PROJECT}
+- tapOn: "intro"
+- tapOn: "Create Project"
+- assertVisible: "ic draw tool brush 28pt"
+- assertVisible: "ic draw tool eraser 28pt"
+- assertVisible: "ic stage share"
