@@ -1,0 +1,9 @@
+appId: com.vblast.flipaclip
+---
+- runFlow: "../features/project/create-project-layout-1.yaml"
+- runFlow: "../features/project/create-project-layout-2.yaml"
+- runFlow: "../features/project/create-project-layout-3.yaml"
+- runFlow: "../features/project/make-movie-layout-3.yaml"
+- runFlow: "../features/api/load-discover-qa.yaml"
+- runFlow: "../features/api/load-audio-library.yaml"
+- runFlow: "../features/api/load-actors.yaml"

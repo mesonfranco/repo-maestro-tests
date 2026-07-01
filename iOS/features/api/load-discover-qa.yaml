@@ -1,0 +1,6 @@
+appId: com.vblast.flipaclip
+---
+- launchApp: com.vblast.flipaclip
+- tapOn: "DISCOVER"
+- assertVisible: "Live"
+- assertVisible: "For You "

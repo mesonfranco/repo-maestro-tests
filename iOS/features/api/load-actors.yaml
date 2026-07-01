@@ -1,0 +1,13 @@
+appId: com.vblast.flipaclip
+---
+- tapOn:
+    text: "ic plus 16"
+    index: 1
+- tapOn: "Voice maker"
+- assertVisible: "Ruberto"
+- tapOn: "Bushelbeard"
+- assertVisible:
+    id: "uiQp2bFmqh42EhC.png"
+- tapOn:
+    id: "ic_sparkle"
+- assertVisible: "Yearly"
