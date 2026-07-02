@@ -1,0 +1,11 @@
+appId: com.vblast.flipaclip
+---
+- launchApp: com.vblast.flipaclip
+- extendedWaitUntil:
+    visible: "Projects"
+    timeout: 10000
+- tapOn: "Settings"
+- tapOn: "App Settings"
+- tapOn: "1"
+- tapOn: "ic back"
+- tapOn: "ic back"

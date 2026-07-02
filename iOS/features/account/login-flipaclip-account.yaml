@@ -1,0 +1,21 @@
+appId: com.vblast.flipaclip
+env:
+    USER: "bifewig736@icotz.com"
+    PASSWORD: "123456"
+---
+- launchApp: com.vblast.flipaclip
+- tapOn: "Settings"
+- tapOn: "Accounts"
+- tapOn: "FlipaClip"
+- tapOn: "SIGN IN"
+- tapOn: "Sign in with email"
+- tapOn: "Email address"
+- inputText: ${USER}
+- tapOn: "Done"
+- tapOn: "Password"
+- inputText: ${PASSWORD}
+- tapOn: "Done"
+- tapOn: "SIGN IN"
+- assertVisible: "FlipaClip Contest"
+- tapOn: "Profile"
+- assertVisible: "First name"
