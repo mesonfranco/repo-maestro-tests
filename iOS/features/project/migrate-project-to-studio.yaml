@@ -1,0 +1,13 @@
+appId: com.vblast.flipaclip
+---
+- launchApp: com.vblast.flipaclip
+- tapOn:
+    id: "cover.png"
+    index: 2
+- assertVisible: "Want to do more in your project with the New FlipaClip?"
+- tapOn: "Open a copy"
+- assertVisible:
+    id: "ic_drawtool_brush"
+- assertVisible:
+    id: "ic_drawtool_eraser"
+- assertVisible: "Classic"
