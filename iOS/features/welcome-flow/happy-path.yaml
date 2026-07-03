@@ -1,0 +1,38 @@
+appId: com.vblast.flipaclip
+permission:
+
+---
+- launchApp:
+    permissions: 
+        notifications: allow
+    clearState: true
+- waitForAnimationToEnd
+- tapOn: "Get Started"
+- swipe:
+    start: "20%,50%"
+    end: "38%,33%"
+    duration: 1500
+- tapOn: "Continue"
+- tapOn: "Continue"
+- tapOn: "Allow"
+- extendedWaitUntil:
+    visible: "Yearly"
+    timeout: 5000
+- tapOn:
+    point: "15, 60"
+- tapOn: "I want to learn how to animate"
+- tapOn: "Continue"
+- extendedWaitUntil:
+    visible: "Make your first animation!"
+    timeout: 5000
+- tapOn:
+    point: "18, 75"
+- scrollUntilVisible:
+    element:
+      id: "app_logo"
+- assertVisible: "HOME"
+- assertVisible: "DISCOVER"
+- assertVisible: "WATCH"
+- assertVisible: "SEARCH"
+- assertVisible: "Projects"
+- assertVisible: "Movies"
