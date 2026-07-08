@@ -1,0 +1,5 @@
+appId: com.vblast.flipaclip
+---
+- openLink: "flipaclip://open/webframe?url=https://d1883d5h4z2f65.cloudfront.net/&fullscreen=true"
+- waitForAnimationToEnd
+- tapOn: "Try now"
