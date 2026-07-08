@@ -1,6 +1,9 @@
 appId: com.example.app
 ---
 - runFlow: "../project/create-generic-project.yaml"
+- extendedWaitUntil:
+    visible: "Classic"
+    timeout: 10000
 - tapOn: "ic plus 16"
 - tapOn: "Audio track"
 - tapOn:

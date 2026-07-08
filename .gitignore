@@ -1,5 +1,7 @@
 myreport.html
 ui-tests.sh
+run-ios-tests.sh
+report.html
 .maestro/baseline/
 .maestro/current/
 .maestro/diffs/

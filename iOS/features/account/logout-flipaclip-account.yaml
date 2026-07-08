@@ -1,0 +1,10 @@
+appId: com.vblast.flipaclip
+---
+- launchApp: com.vblast.flipaclip
+- tapOn: "Settings"
+- tapOn: "Accounts"
+- tapOn: "FlipaClip"
+- tapOn: "Sign Out"
+- tapOn: "ic close"
+- tapOn: "ic back"
+- tapOn: "ic back"

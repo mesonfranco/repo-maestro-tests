@@ -12,4 +12,5 @@ appId: com.vblast.flipaclip
 - runFlow: "../features/api/load-audio-library.yaml"
 - runFlow: "../features/api/load-actors.yaml"
 - runFlow: "../features/account/login-flipaclip-account.yaml"
+- runFlow: "../features/account/logout-flipaclip-account.yaml"
 - runFlow: "../generic/restart.yaml"
