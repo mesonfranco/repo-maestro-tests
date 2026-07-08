@@ -1,5 +1,7 @@
 appId: com.vblast.flipaclip
 ---
+- runFlow: "../features/welcome-flow/happy-path.yaml"
+##- runFlow: "../features/deeplinks/opt-in-webframe.yaml"
 - runFlow: "../features/settings/turn-off-splash.yaml"
 - runFlow: "../features/project/create-project-layout-1.yaml"
 - runFlow: "../features/project/create-project-layout-2.yaml"
