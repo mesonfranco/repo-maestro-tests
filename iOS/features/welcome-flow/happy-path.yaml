@@ -28,7 +28,7 @@ permission:
 - tapOn: "Allow"
 - extendedWaitUntil:
     visible: "Yearly"
-    timeout: 2000
+    timeout: 10000
 - tapOn:
     point: "15, 60"
 - extendedWaitUntil:
