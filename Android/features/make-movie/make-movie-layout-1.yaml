@@ -1,0 +1,20 @@
+appId: com.vblast.flipaclip
+env:
+    MOVIE_NAME: "Movie "
+---
+- repeat:
+    times: 11
+    commands:
+      - tapOn: "Add frame"
+- tapOn: "Make Movie"
+- tapOn: "Name your movie"
+- eraseText
+- inputText: ${MOVIE_NAME}
+- tapOn: "Back"
+- tapOn: "MAKE MOVIE"
+- assertVisible: "Share"
+- assertVisible: "YouTube"
+- assertVisible: "TikTok"
+- assertVisible: "More"
+- assertVisible: "MP4"
+

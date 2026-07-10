@@ -1,5 +1,6 @@
 appId: com.vblast.flipaclip
 ---
-- openLink: "flipaclip://open/webframe?url=https://d1883d5h4z2f65.cloudfront.net/&fullscreen=true"
-- waitForAnimationToEnd
-- tapOn: "Try now"
+- openLink: "flipaclip://enroll?featureId=as_early_access&maestro-test=wacom_team"
+- tapOn: "Settings"
+- tapOn: "App Settings"
+- assertVisible: "New FlipaClip"
