@@ -1,9 +1,7 @@
 appId: com.vblast.flipaclip
 ---
 - launchApp: com.vblast.flipaclip
-- tapOn:
-    id: "cover.png"
-    index: 2
+- tapOn: "My Project Layout 2 project"
 - assertVisible: "Want to do more in your project with the New FlipaClip?"
 - tapOn: "Open a copy"
 - assertVisible:

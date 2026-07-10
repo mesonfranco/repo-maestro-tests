@@ -2,6 +2,7 @@ myreport.html
 ui-tests.sh
 run-ios-tests.sh
 report.html
+config.yaml
 .maestro/baseline/
 .maestro/current/
 .maestro/diffs/

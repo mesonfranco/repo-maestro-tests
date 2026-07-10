@@ -1,0 +1,24 @@
+appId: com.example.app
+env:
+    MOVIE_NAME: "Movie "
+---
+- repeat:
+    times: 11
+    commands:
+        - tapOn:
+            id: "ic_stage_add_frame"
+- tapOn: "ic stage share"
+- tapOn: "Name Your Movie"
+- eraseText
+- inputText: ${MOVIE_NAME}
+- tapOn: "Done"
+- assertVisible: "12 FPS"
+- assertVisible: "12 FRAMES"
+- assertVisible: "1 SECOND"
+- tapOn: "Make Movie"
+- assertVisible: "Preview"
+- assertVisible: "YouTube"
+- assertVisible: "TikTok"
+- assertVisible: "Save to Photos"
+- assertVisible: "More"
+- assertVisible: "Share"
