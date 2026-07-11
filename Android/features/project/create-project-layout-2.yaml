@@ -1,0 +1,16 @@
+appId: com.vblast.flipaclip
+env:
+    PROJECT_NAME: "My Project Layout 2"
+---
+- tapOn:
+    id: "navCreateProjectBackground"
+- tapOn: "Name your animation"
+- inputText: ${PROJECT_NAME}
+- tapOn: "Back"
+- tapOn: "CREATE PROJECT"
+- assertVisible:
+    text: "HIDE"
+    index: 1
+- assertVisible: "Brush"
+- assertVisible:
+    text: "AUDIO"

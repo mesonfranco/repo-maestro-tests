@@ -1,0 +1,6 @@
+appId: com.vblast.flipaclip
+---
+- openLink: "flipaclip://enroll?featureId=as_early_access&campaignId=maestro-test"
+- tapOn: "Settings"
+- tapOn: "App Settings"
+- assertVisible: "New FlipaClip"

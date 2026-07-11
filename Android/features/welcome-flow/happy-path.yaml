@@ -7,20 +7,35 @@ tags:
     clearState: true
     permissions:
       notifications: allow
-- tapOn: Get Started
+- extendedWaitUntil:
+    visible: "Get Started"
+    timeout: 10000
+- tapOn: "Get Started"
+- extendedWaitUntil:
+    visible: "What's your age?"
+    timeout: 10000
 - swipe:
     start: 20%, 50%
-    end: 80%, 80%
-    duration: 70
+    end: 38%, 33%
+    duration: 2000
 - tapOn: Continue
+- extendedWaitUntil:
+    visible: "Yearly"
+    timeout: 5000
 - tapOn:
-    id: closeAction
-- tapOn: I want to learn how to animate
-- tapOn: Continue
-- tapOn: "Play"
-- tapOn:
-    point: "50%,50%"
-- tapOn:
-    point: 50%,50%
-- tapOn:
-    id: "closeButton"
+    id: "closeAction"
+- extendedWaitUntil:
+    visible: "What brings you to FlipaClip?"
+    timeout: 5000
+- tapOn: "I want to learn how to animate"
+- tapOn: "Continue"
+- extendedWaitUntil:
+    visible: "Make your first animation!"
+    timeout: 5000
+- tapOn: "Close"
+- assertVisible:
+    id: "navLogo"
+- assertVisible: "HOME"
+- assertVisible: "DISCOVER"
+- assertVisible: "WATCH"
+- assertVisible: "SEARCH"

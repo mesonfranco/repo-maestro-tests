@@ -2,9 +2,26 @@ appId: com.vblast.flipaclip
 tags:
   - api
 ---
-- tapOn: "Audio"
-- tapOn: "Add Audio"
+- assertVisible: "Classic"
+- assertVisible: "Layer"
+- tapOn:
+    id: "icon"
+- tapOn: "Audio track"
+- tapOn:
+    id: "icon"
+    index: 1
 - tapOn: "Audio Library"
 - assertVisible: "Fight - Sound FX"
+- assertVisible: "Fun - Sound FX"
+- assertVisible: "Machine - Sound FX"
+- assertVisible: "Human - Sound FX"
+- assertVisible: "Nature - Sound FX"
+- assertVisible: "Superhero - Sound FX"
 - assertVisible: "Toons - Sound FX"
+- tapOn: "Fight - Sound FX"
+- assertVisible:
+    id: "imageView"
+- assertVisible: "Search"
+- tapOn: "Body damage 1"
+- tapOn: "Back"
 - tapOn: "Close"

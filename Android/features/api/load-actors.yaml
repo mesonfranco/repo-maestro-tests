@@ -1,9 +1,12 @@
 appId: com.vblast.flipaclip
 ---
-- tapOn: "Add Audio"
+- tapOn:
+    id: "icon"
+    index: 1
 - tapOn: "Voice maker"
+- assertVisible: "What do you want your character to say?"
 - assertVisible: "Ruberto"
 - assertVisible: "Bushelbeard"
-- assertVisible: "Astra-9"
-- tapOn: "Close"
-- tapOn: "Close"
+- tapOn: "Bushelbeard"
+- assertVisible: "Play"
+- assertVisible: "Generate audio"
