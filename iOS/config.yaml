@@ -1,0 +1,18 @@
+# config.yaml
+executionOrder:
+  continueOnFailure: true
+  flowsOrder:
+    - 01-welcome-flow
+    - 02-disable-splash
+    - 03-create-project-layout-1
+    - 04-make-movie-layout-1
+    - 05-create-project-layout-2
+    - 06-make-movie-layout-2
+    - 07-create-project-layout-3
+    - 08-make-movie-layout-3
+    - 09-migrate-project
+    - 10-load-discover
+    - 11-load-audio-library
+    - 12-load-actors
+    - 13-login-flipaclip-account
+    - 14-logout-flipaclip-account

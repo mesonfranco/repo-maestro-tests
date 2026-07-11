@@ -1,8 +1,10 @@
 myreport.html
 ui-tests.sh
 run-ios-tests.sh
+run-android-tests.sh
 report.html
-config.yaml
+Android/config.yaml
+iOS/confing.yaml
 .maestro/baseline/
 .maestro/current/
 .maestro/diffs/
