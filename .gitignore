@@ -1,7 +1,7 @@
 myreport.html
 ui-tests.sh
-run-ios-tests.sh
-run-android-tests.sh
+ios-test.sh
+android-test.sh
 report.html
 Android/config.yaml
 iOS/confing.yaml

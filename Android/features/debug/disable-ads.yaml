@@ -1,9 +1,15 @@
 appId: com.vblast.flipaclip
 ---
+- launchApp: com.vblast.flipaclip
+- extendedWaitUntil:
+    visible:
+        id: "navLogo"
+    timeout: 10000
+
 - tapOn: "Settings"
 - tapOn: "App Settings"
 - tapOn: "Debug"
 - tapOn: "Ads Override"
 - tapOn: "FORCE_DISABLE"
-
-
+- assertVisible:
+    id: "navLogo"

@@ -22,3 +22,7 @@ tags:
 - assertVisible:
     id: navLogo
 - takeScreenshot: "../baseline/home"
+- assertVisible: "HOME"
+- assertVisible: "DISCOVER"
+- assertVisible: "WATCH"
+- assertVisible: "SEARCH"
