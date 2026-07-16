@@ -3,6 +3,8 @@ executionOrder:
   continueOnFailure: true
   flowsOrder:
     - 01-welcome-flow
+    - 15-enable-studio
+    - 16-restart-app
     - 02-disable-splash
     - 03-create-project-layout-1
     - 04-make-movie-layout-1

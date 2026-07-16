@@ -17,5 +17,10 @@ env:
 - tapOn: "Done"
 - tapOn: "SIGN IN"
 - assertVisible: "FlipaClip Contest"
+- extendedWaitUntil:
+    visible: "Profile"
+    timeout: 5000
 - tapOn: "Profile"
-- assertVisible: "First name"
+- extendedWaitUntil:
+    visible: "First name"
+    timeout: 10000
