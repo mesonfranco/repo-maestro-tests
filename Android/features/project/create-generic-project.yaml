@@ -3,6 +3,10 @@ env:
     PROJECT_NAME: "Generic Project"
 ---
 - launchApp: com.vblast.flipaclip
+- extendedWaitUntil:
+    visible:
+        id: "navLogo"
+    timeout: 10000
 - tapOn:
     id: "navCreateProjectBackground"
 - tapOn: "Name your animation"
