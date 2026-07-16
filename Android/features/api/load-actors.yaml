@@ -1,12 +1,24 @@
 appId: com.vblast.flipaclip
 ---
+- extendedWaitUntil:
+    visible:
+        text: "Classic"
+        index: 1
+    timeout: 10000
 - tapOn:
     id: "icon"
     index: 1
 - tapOn: "Voice maker"
+- assertVisible: "Voice maker"
 - assertVisible: "What do you want your character to say?"
+- assertVisible: "Type your text/dialogue here…"
+- assertVisible: "Now, pick a voice for your character"
+- assertVisible: "Actors"
 - assertVisible: "Ruberto"
 - assertVisible: "Bushelbeard"
 - tapOn: "Bushelbeard"
 - assertVisible: "Play"
-- assertVisible: "Generate audio"
+- tapOn: "Credits"
+- extendedWaitUntil:
+    visible: "Yearly"
+    timeout: 10000

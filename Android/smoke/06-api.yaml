@@ -1,0 +1,6 @@
+appId: com.vblast.flipaclip
+---
+- runFlow: "../features/api/load-discover.yaml"
+- runFlow: "../features/project/create-generic-project.yaml"
+- runFlow: "../features/api/load-audio-library.yaml"
+- runFlow: "../features/api/load-actors.yaml"
