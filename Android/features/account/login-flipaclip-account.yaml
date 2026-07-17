@@ -1,6 +1,6 @@
 appId: com.vblast.flipaclip
 env:
-    EMAIL: "jobebo3825@sixoplus.com"
+    EMAIL: "xidapiy844@epaynine.com"
     PASS: "123456"
 ---
 - launchApp: com.vblast.flipaclip
@@ -18,4 +18,9 @@ env:
 - tapOn: "Sign in"
 - assertVisible: "FlipaClip account"
 - assertVisible: "Account information"
-- assertVisible: "Account information"
+- tapOn: "Profile"
+- assertVisible: "First name"
+- assertVisible: "Last name"
+- assertVisible: "Email"
+- assertVisible: "Birthday"
+- assertVisible: "Country"

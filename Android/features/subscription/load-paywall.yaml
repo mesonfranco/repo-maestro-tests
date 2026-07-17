@@ -4,4 +4,6 @@ tags:
 ---
 - launchApp: com.vblast.flipaclip
 - tapOn: FlipaClip Plus
-- assertVisible: Yearly
+- extendedWaitUntil:
+    visible: "Yearly"
+    timeout: 5000

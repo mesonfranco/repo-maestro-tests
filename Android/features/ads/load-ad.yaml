@@ -4,18 +4,19 @@ tags:
 env:
   PROJECT: "Load Ad"
 ---
-- launchApp: com.vblast.flipaclip
-- tapOn: 
-    id: projectName
-- inputText: ${PROJECT}
-- hideKeyboard
-- tapOn: 
-    id: action_confirm
+- runFlow: "../project/create-generic-project.yaml"
+- extendedWaitUntil:
+    visible: "Classic"
+    timeout: 5000
 - tapOn:
-    id: audioButton
-- tapOn: Add Audio
-- tapOn: Add Audio
-- waitForAnimationToEnd:
-    timeout: 15000
-- tapOn: WATCH AD
-- assertNotVisible: This feature is locked!
+    id: "icon"
+- tapOn: "Audio track"
+- tapOn:
+    id: "icon"
+    index: 1
+- tapOn: "Add Audio"
+- extendedWaitUntil:
+    visible: "WATCH AD"
+    timeout: 10000
+- tapOn: "WATCH AD"
+- assertNotVisible: "WATCH AD"
