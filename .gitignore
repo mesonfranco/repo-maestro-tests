@@ -4,7 +4,8 @@ ios-test.sh
 android-test.sh
 report.html
 Android/config.yaml
-iOS/confing.yaml
+iOS/config.yaml
+scope-prod-test.md
 .maestro/baseline/
 .maestro/current/
 .maestro/diffs/

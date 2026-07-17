@@ -1,6 +1,0 @@
-appId: com.vblast.flipaclip
----
-- launchApp: com.vblast.flipaclip
-- tapOn:
-    id: "navCreateProjectBackground"
-- tapOn: "Classic"

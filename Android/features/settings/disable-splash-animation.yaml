@@ -3,7 +3,12 @@ tags:
   - settings
 ---
 - launchApp: com.vblast.flipaclip
+- extendedWaitUntil:
+    visible: "Settings"
+    timeout: 10000
 - tapOn: Settings
 - tapOn: App Settings
 - tapOn:
     id: switch_button
+- tapOn: Back
+- tapOn: Back
