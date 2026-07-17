@@ -1,4 +1,3 @@
-# config.yaml
 executionOrder:
   continueOnFailure: true
   flowsOrder:
