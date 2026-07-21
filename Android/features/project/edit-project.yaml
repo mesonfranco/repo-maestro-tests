@@ -1,25 +1,32 @@
 appId: com.vblast.flipaclip
-tags:
-  - project
+env:
+  PROJECT_NAME: "Project edited"
 ---
-- launchApp: com.vblast.flipaclip
 - longPressOn:
-    id: Image1 #0
-- tapOn: Edit
-- tapOn: Name your animation
-- inputText: "1"
-- tapOn: Back
-- tapOn: Presets
+    id: "coverImage"
+    index: 2
+- tapOn: "Edit"
+- repeat:
+    times: 2
+    commands:
+      - tapOn: "Name your animation"
 - tapOn:
-    id: backgroundImage
-    index: 3
-- tapOn: Back
-- tapOn: Choose frames per second
+    id: "insertion_handle"
+- tapOn: "Select all"
+- eraseText
+- inputText: ${PROJECT_NAME}
+- tapOn: "Back"
+- tapOn: "YouTube (720p)"
+- tapOn: "Vimeo (1080p)"
+- tapOn: "Back"
+- tapOn:
+    id: "actionFps"
 - swipe:
-    from:
-      id: numberpicker_input
+    from: 12
     direction: UP
-- tapOn: Back
-- tapOn: SAVE CHANGES
-- assertVisible:
-    id: navLogo
+    duration: 400
+- tapOn: "24"
+- tapOn: "Back"
+- tapOn: "SAVE CHANGES"
+- assertVisible: "Project edited"
+- assertVisible: "24 fps"
