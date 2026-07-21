@@ -1,4 +1,8 @@
 appId: com.vblast.flipaclip
 ---
+- tapOn: "Back"
 - tapOn: "Sign Out"
 - assertVisible: "Create account"
+- tapOn: "Close"
+- tapOn: "Back"
+- tapOn: "Back"

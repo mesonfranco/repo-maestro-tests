@@ -1,0 +1,30 @@
+appId: com.vblast.flipaclip
+---
+- runFlow: "create-generic-project.yaml"
+- tapOn:
+    id: "emptyFrameItem"
+- repeat:
+    times: 2
+    commands:
+      - swipe:
+          start: "50%,20"
+          end: "70%,70%"
+      - tapOn:
+           id: "emptyFrameItem"
+- swipe:
+    from: 
+        id: trackList
+    direction: LEFT
+    duration: 2000
+- tapOn:
+    id: "emptyFrameItem"
+- repeat:
+    times: 2
+    commands:
+      - swipe:
+          start: "50%,20"
+          end: "70%,70%"
+      - tapOn:
+           id: "emptyFrameItem"
+- tapOn: "Play"
+- assertVisible: "Stop"

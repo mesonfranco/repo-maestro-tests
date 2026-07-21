@@ -5,7 +5,6 @@ tags:
 env:
   PROJECT: "squirrel"
 ---
-- launchApp: com.vblast.flipaclip
 - tapOn:
     id: llSearch
 - tapOn: Search projects, movies, and articles...
@@ -16,4 +15,3 @@ env:
     direction: LEFT
 - assertVisible:
     id: ivEdit
-
