@@ -1,0 +1,7 @@
+appId: com.vblast.flipaclip
+env:
+    PROJECT_NAME: "Project edited"
+---
+#- launchApp: com.vblast.flipaclip
+- longPressOn: "Generic Project"
+- tapOn: "ic edit"
