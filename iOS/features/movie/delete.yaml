@@ -1,0 +1,13 @@
+appId: com.vblast.flipaclip
+---
+- launchApp: com.vblast.flipaclip
+- assertVisible: Movies
+- swipe:
+    direction: LEFT
+    duration: 300
+- longPressOn: "Movie Layout 1 movie"
+- tapOn: "Movie Layout 2 movie unselected"
+- tapOn: "Movie Layout 3 movie unselected"
+- tapOn: "delete movie"
+- tapOn: "Remove"
+- assertVisible: "IT'S SO DESOLATE IN HERE..."
