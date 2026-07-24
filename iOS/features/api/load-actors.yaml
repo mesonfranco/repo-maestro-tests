@@ -8,6 +8,4 @@ appId: com.vblast.flipaclip
 - tapOn: "Bushelbeard"
 - assertVisible:
     id: "uiQp2bFmqh42EhC.png"
-- tapOn:
-    id: "ic_sparkle"
-- assertVisible: "Yearly"
+- tapOn: "ic close"
