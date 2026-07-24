@@ -2,8 +2,8 @@ executionOrder:
   continueOnFailure: true
   flowsOrder:
     - 01-welcome-flow
-    - 15-enable-studio
-    - 16-restart-app
+   # - 15-enable-studio
+   # - 16-restart-app
     - 02-disable-splash
     - 03-create-project-layout-1
     - 04-make-movie-layout-1
@@ -15,5 +15,8 @@ executionOrder:
     - 10-load-discover
     - 11-load-audio-library
     - 12-load-actors
-    - 13-login-flipaclip-account
-    - 14-logout-flipaclip-account
+    - 13-load-ad
+    - 14-login-flipaclip-account
+    - 15-logout-flipaclip-account
+    - 18-delete-movie
+    - 19-search-project 
