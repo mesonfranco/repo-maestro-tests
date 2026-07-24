@@ -2,6 +2,18 @@ appId: com.vblast.flipaclip
 env:
     PROJECT_NAME: "Project edited"
 ---
-#- launchApp: com.vblast.flipaclip
+- launchApp: com.vblast.flipaclip
 - longPressOn: "Generic Project"
-- tapOn: "ic edit"
+- tapOn: "edit project"
+- tapOn: "Name your animation"
+- tapOn: "ic clear search"
+- inputText: ${PROJECT_NAME}
+- tapOn: "Done"
+- tapOn: "Frames Per Second"
+- swipe:
+    from: 12
+    direction: UP
+- tapOn: "ic back"
+- assertVisible: "30 FPS"
+- tapOn: "Save Changes"
+- assertVisible: "30 fps"

@@ -20,3 +20,6 @@ executionOrder:
     - 15-logout-flipaclip-account
     - 18-delete-movie
     - 19-search-project 
+    - 20-edit-project
+    - 21-duplicate-project
+    - 22-delete-project

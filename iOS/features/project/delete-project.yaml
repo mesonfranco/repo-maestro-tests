@@ -1,0 +1,6 @@
+appId: com.vblast.flipaclip
+---
+- longPressOn: "Project edited (Copy)"
+- tapOn: "delete project"
+- tapOn: "Delete"
+- assertNotVisible: "Project edited (Copy)"
