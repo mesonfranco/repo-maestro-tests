@@ -1,0 +1,6 @@
+appId: com.vblast.flipaclip
+---
+- longPressOn: "Project edited project"
+- tapOn: "ic add small"
+- assertVisible: "Done"
+- assertVisible: "Project edited (Copy)"
