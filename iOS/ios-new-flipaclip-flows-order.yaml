@@ -4,3 +4,7 @@ executionOrder:
     - 01-studio-layout
     - 02-create-layer-track
     - 03-layer-track-options-popup
+    - 04-delete-layer-track
+    - 05-create-audio-track
+    - 06-audio-track-options-popup
+    - 07-delete-audio-track
