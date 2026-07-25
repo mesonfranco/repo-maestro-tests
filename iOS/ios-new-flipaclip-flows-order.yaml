@@ -1,0 +1,6 @@
+executionOrder:
+  continueOnFailure: true
+  flowsOrder:
+    - 01-studio-layout
+    - 02-create-layer-track
+    - 03-layer-track-options-popup

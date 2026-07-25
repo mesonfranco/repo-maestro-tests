@@ -1,0 +1,30 @@
+appId: com.vblast.flipaclip
+---
+- runFlow: "../project/create-generic-project.yaml"
+- extendedWaitUntil:
+    visible: "Classic"
+    timeout: 5000
+- assertVisible:
+    id: "ic_x_24"
+- assertVisible:
+    id: "ic_diamond_24"
+- assertVisible:
+    id: "ic_share_ios_24"
+- assertVisible:
+    id: "ic_dots_three_vertical_24"
+- assertVisible:
+    id: "ic_drawtool_brush"
+- assertVisible:
+    id: "ic_skip_back_16"
+- assertVisible:
+    id: "ic_play_16"
+- assertVisible:
+    id: "ic_skip_forward_16"
+- assertVisible: "ic plus 16"
+- assertVisible: "Layer"
+- assertVisible: "Undo"
+- assertVisible: "Redo"
+- assertVisible: "Copy"
+- assertVisible: "Paste"
+- assertVisible: "Image/Video"
+- assertVisible: "Clear"

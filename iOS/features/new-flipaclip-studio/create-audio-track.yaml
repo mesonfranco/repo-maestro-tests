@@ -1,0 +1,5 @@
+appId: com.vblast.flipaclip
+---
+- tapOn: "ic plus 16"
+- tapOn: "Audio track"
+- assertVisible: "Audio 1"

@@ -1,0 +1,4 @@
+appId: com.vblast.flipaclip
+---
+- tapOn: "Delete"
+- assertNotVisible: "Audio 1"
