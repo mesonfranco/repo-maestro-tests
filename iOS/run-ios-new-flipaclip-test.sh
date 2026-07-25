@@ -22,7 +22,7 @@ echo "🚀 Iniciando la suite de pruebas en el dispositivo: $DEVICE_ID"
 # Guardamos el reporte incluyendo la fecha en el nombre para tener un histórico.
 maestro --device "$DEVICE_ID" test --config "iOS/ios-new-flipaclip-flows-order.yaml" \
   --format html-detailed \
-  --output "iOS/smoke-test.html"  \
+  --output "iOS/new-fc-studio.html"  \
   iOS/new-flipaclip-flows/
 
 echo "📊 ¡Pruebas terminadas! Abriendo el último reporte..."

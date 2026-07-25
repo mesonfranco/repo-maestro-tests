@@ -1,4 +1,7 @@
 appId: com.vblast.flipaclip
 ---
+- swipe:
+    from: Copy
+    direction: LEFT
 - tapOn: "Delete"
 - assertNotVisible: "Layer 2"
