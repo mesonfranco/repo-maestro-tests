@@ -1,0 +1,3 @@
+appId: com.vblast.flipaclip
+---
+- runFlow: "../features/new-flipaclip-studio/layer-track-options.yaml"

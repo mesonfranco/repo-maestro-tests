@@ -1,0 +1,5 @@
+appId: com.vblast.flipaclip
+---
+- tapOn: "ic plus 16"
+- tapOn: "Layer track"
+- assertVisible: "Layer 2"

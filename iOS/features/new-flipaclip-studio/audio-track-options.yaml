@@ -1,0 +1,6 @@
+appId: com.vblast.flipaclip
+---
+- tapOn: "Audio 1"
+- assertVisible: "Rename"
+- tapOn:
+    point: 52%,46%
