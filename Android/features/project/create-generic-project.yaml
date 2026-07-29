@@ -1,0 +1,13 @@
+appId: com.vblast.flipaclip
+env:
+  PROJECT_NAME: "Generic Project"
+---
+- launchApp: com.vblast.flipaclip
+- tapOn:
+    id: "navCreateProjectBackground"
+- tapOn:
+    id: "projectName"
+- inputText: ${PROJECT_NAME}
+- tapOn: "Back"
+- tapOn: "CREATE PROJECT"
+

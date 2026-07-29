@@ -35,6 +35,8 @@ tags:
 - tapOn: "Close"
 - assertVisible:
     id: "navLogo"
+- assertVisible:
+    id: "bottomNavigationBarV2"
 - assertVisible: "HOME"
 - assertVisible: "DISCOVER"
 - assertVisible: "WATCH"

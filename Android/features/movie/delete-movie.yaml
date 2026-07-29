@@ -7,14 +7,12 @@ appId: com.vblast.flipaclip
 - swipe:
     direction: LEFT
     duration: 300
-- longPressOn:
-    id: "coverImage"
-- tapOn:
-    id: "coverImage"
-    index: 1
-- tapOn:
-    id: "coverImage"
-    index: 2
+- extendedWaitUntil:
+    visible: "Movie Layout 1"
+    timeout: 5000
+- longPressOn: "Movie Layout 1"
+- tapOn: "Movie Layout 2"
+- tapOn: "Movie Layout 3"
 - tapOn: "Delete"
-- tapOn: "Delete"
+- tapOn: "DELETE"
 - assertVisible: "IT'S SO DESOLATE IN HERE…"

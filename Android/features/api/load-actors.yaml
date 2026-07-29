@@ -13,12 +13,9 @@ appId: com.vblast.flipaclip
 - assertVisible: "What do you want your character to say?"
 - assertVisible: "Type your text/dialogue here…"
 - assertVisible: "Now, pick a voice for your character"
-- assertVisible: "Actors"
 - assertVisible: "Ruberto"
 - assertVisible: "Bushelbeard"
 - tapOn: "Bushelbeard"
 - assertVisible: "Play"
-- tapOn: "Credits"
-- extendedWaitUntil:
-    visible: "Yearly"
-    timeout: 10000
+- assertVisible: "Credits"
+- assertVisible: "History"

@@ -1,0 +1,6 @@
+appId: com.vblast.flipaclip
+---
+- swipe:
+    from: alpha_pattern
+    direction: RIGHT
+    duration: 600

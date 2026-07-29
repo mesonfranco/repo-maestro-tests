@@ -1,0 +1,20 @@
+executionOrder:
+  continueOnFailure: true
+  flowsOrder:
+    - 00-welcome-flow
+    - 01-enable-new-flipaclip
+    - 02-disable-splash
+    - 03-create-project-layout-1
+    - 04-make-movie-layout-1
+    - 05-create-project-layout-2
+    - 06-make-movie-layout-2
+    - 07-create-project-layout-3
+    - 08-make-movie-layout-3
+    - 09-api-tests
+    - 10-delete-movie
+    - 11-load-paywall
+    - 12-load-ad
+    - 13-login-flipaclip-account
+    - 14-logout-flipaclip-account
+    - 15-edit-project
+    - 16-search-project
