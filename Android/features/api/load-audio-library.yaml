@@ -15,15 +15,8 @@ tags:
 - assertVisible: "Human - Sound FX"
 - tapOn:
     id: "staticArrowIcon"
-- assertVisible:
-    id: "artworkImage"
+- assertVisible: "Audio library"
 - assertVisible: "Fight - Sound FX"
-- tapOn:
-    id: "imageView"
-- extendedWaitUntil:
-    visible: "$29.99 / year"
-    timeout: 10000
-- tapOn:
-    id: "closeAction"
+- assertVisible: "Body damage 1"
 - tapOn: "Back"
 - tapOn: "Close"
