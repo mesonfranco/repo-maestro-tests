@@ -6,6 +6,6 @@ appId: com.vblast.flipaclip
     timeout: 10000
 - tapOn: "Settings"
 - tapOn: "App Settings"
-- tapOn: "1"
-- tapOn: "ic back"
-- tapOn: "ic back"
+- tapOn:
+    text: "0"
+    index: 0
