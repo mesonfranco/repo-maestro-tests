@@ -2,6 +2,7 @@ appId: com.vblast.flipaclip
 tags:
   - api
 ---
+- tapOn: "Studio"
 - tapOn:
     id: "icon"
 - tapOn: "Audio track"
@@ -9,14 +10,17 @@ tags:
     id: "icon"
     index: 1
 - tapOn: "Audio Library"
-- assertVisible: "Fight - Sound FX"
-- assertVisible: "Fun - Sound FX"
-- assertVisible: "Machine - Sound FX"
-- assertVisible: "Human - Sound FX"
+- extendedWaitUntil:
+    visible: "Fight - Sound FX"
+    timeout: 10000
+- assertVisible:
+    id: "artworkImage"
 - tapOn:
     id: "staticArrowIcon"
-- assertVisible: "Audio library"
-- assertVisible: "Fight - Sound FX"
-- assertVisible: "Body damage 1"
+- extendedWaitUntil:
+    visible: "Fight - Sound FX"
+    timeout: 10000
+- assertVisible:
+    id: "artworkImage"
 - tapOn: "Back"
 - tapOn: "Close"

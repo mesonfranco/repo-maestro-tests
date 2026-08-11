@@ -1,6 +1,9 @@
 appId: com.vblast.flipaclip
 ---
 - longPressOn: "Project edited (Copy)"
+- extendedWaitUntil:
+    visible: "Delete project"
+    timeout: 5000
 - tapOn: "Delete project"
 - tapOn: "Delete"
 - assertNotVisible: "Project edited (Copy)"

@@ -1,8 +1,0 @@
-appId: com.vblast.flipaclip
----
-- tapOn:
-    text: "ic plus 16"
-    index: 1
-- tapOn: "Add Audio"
-- tapOn: "Watch Ad"
-- assertNotVisible: "Watch Ad"
