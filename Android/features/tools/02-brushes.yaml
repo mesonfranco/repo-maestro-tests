@@ -1,0 +1,15 @@
+appId: com.vblast.flipaclip
+---
+- tapOn: "Brush"
+- extendedWaitUntil:
+    visible:
+        text: "Brush"
+        index: 2
+    timeout: 10000
+- tapOn:
+    text: "Brush"
+    index: 1
+- assertVisible:
+    id: "brushPreview"
+- assertVisible: "Pen"
+- tapOn: "Close"

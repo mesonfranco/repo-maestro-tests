@@ -1,0 +1,4 @@
+appId: com.vblast.flipaclip
+---
+- tapOn: "Lasso"
+- assertNotVisible: "Fade"

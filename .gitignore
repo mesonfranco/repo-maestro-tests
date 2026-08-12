@@ -1,11 +1,7 @@
-myreport.html
-ui-tests.sh
-ios-test.sh
-android-test.sh
-report.html
-Android/config.yaml
+
+Android/configs/.yaml
 iOS/config.yaml
-Android/smoke-test-report.html
+Android/reports/
 iOS/smoke-test-report.html
 scope-prod-test.md
 .maestro/baseline/
