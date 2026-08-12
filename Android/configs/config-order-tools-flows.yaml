@@ -1,0 +1,11 @@
+# config.yaml
+executionOrder:
+  continueOnFailure: true
+  flowsOrder:
+    - 01-generic-project
+    - 02-brushes
+    - 03-eraser
+    - 04-lasso
+    - 05-color-fill
+    - 06-text-tool
+    - 07-overflow-menu
