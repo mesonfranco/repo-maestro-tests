@@ -1,0 +1,5 @@
+appId: com.vblast.flipaclip
+---
+- tapOn: "More options"
+- assertVisible: "Smudge"
+- assertVisible: "Blur"
