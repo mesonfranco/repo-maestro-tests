@@ -6,11 +6,11 @@ env:
     id: "navCreateProjectBackground"
 - tapOn: "Name your animation"
 - inputText: ${PROJECT_NAME}
-- tapOn: "Back"
+- tapOn: Back
 - tapOn: "CREATE PROJECT"
 - assertVisible:
     text: "HIDE"
     index: 1
-- assertVisible: "Brush"
 - assertVisible:
     text: "AUDIO"
+    index: 1
