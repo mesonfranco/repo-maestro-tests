@@ -8,7 +8,7 @@ env:
 - inputText: ${PROJECT}
 - tapOn: "intro"
 - tapOn: "Create Project"
-- assertVisible: "Classic"
+- assertVisible: "Studio"
 - assertVisible:
     id: "ic_drawtool_brush"
 - assertVisible: "Image/Video"

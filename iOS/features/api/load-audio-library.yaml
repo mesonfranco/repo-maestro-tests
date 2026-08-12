@@ -5,22 +5,16 @@ appId: com.example.app
     visible: "Studio"
     timeout: 10000
 - tapOn: "Studio"
-- tapOn:
-    id: "icon"
+- tapOn: "ic plus 16"
 - tapOn: "Audio track"
 - tapOn:
-    id: "icon"
+    text: "ic plus 16"
     index: 1
 - tapOn: "Audio Library"
 - extendedWaitUntil:
     visible: "Fight - Sound FX"
     timeout: 10000
-- tapOn:
-    id: "staticArrowIcon"
 - extendedWaitUntil:
-    visible: "Fight - Sound FX"
+    visible: "Fun - Sound FX"
     timeout: 10000
-- assertVisible:
-    id: "artworkImage"
-- tapOn: "Back"
-- tapOn: "Close"
+- tapOn: "ic close"

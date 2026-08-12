@@ -8,4 +8,4 @@ appId: com.vblast.flipaclip
     id: "ic_drawtool_brush"
 - assertVisible:
     id: "ic_drawtool_eraser"
-- assertVisible: "Classic"
+- assertVisible: "Studio"

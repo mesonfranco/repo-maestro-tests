@@ -1,0 +1,16 @@
+appId: com.example.app
+---
+- runFlow: "../project/create-generic-project.yaml"
+- extendedWaitUntil:
+    visible: "Studio"
+    timeout: 10000
+- tapOn: "Studio"
+- tapOn: "ic plus 16"
+- tapOn: "Audio track"
+- tapOn:
+    text: "ic plus 16"
+    index: 1
+- tapOn: "Add Audio"
+- waitForAnimationToEnd
+- tapOn: "Watch Ad"
+- assertNotVisible: "Watch Ad"

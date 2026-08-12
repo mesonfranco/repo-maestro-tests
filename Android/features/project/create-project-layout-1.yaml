@@ -6,5 +6,21 @@ env:
     id: "navCreateProjectBackground"
 - tapOn: "Name your animation"
 - inputText: ${PROJECT_NAME}
-- tapOn: "Back"
+- tapOn: Back
 - tapOn: "CREATE PROJECT"
+- assertVisible: "Brush"
+- assertVisible: "Ruler"
+- assertVisible: "Copy"
+- assertVisible: "Paste"
+- assertVisible: "Undo"
+- assertVisible: "Redo"
+- assertVisible: "Scale To Fit"
+- assertVisible: "Make Movie"
+- assertVisible: "More"
+- assertVisible: "Audio"
+- assertVisible: "First Frame"
+- assertVisible: "Play"
+- assertVisible: "Last Frame"
+- assertVisible: "Layers"
+- assertVisible:
+    id: "image"
