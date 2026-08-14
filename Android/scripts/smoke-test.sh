@@ -1,1 +1,1 @@
-maestro test Android/smoke/ --device 29211FDH2006X3 --config "Android/config-order-smoke-flows" --format html-detailed --output Android/reports/smoke-test-report.html
+maestro test Android/smoke/ --device 29211FDH2006X3 --config "Android/configs/config-order-smoke-flows.yaml" --format html-detailed --output Android/reports/smoke-test-report.html

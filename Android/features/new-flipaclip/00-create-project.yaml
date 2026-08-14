@@ -1,0 +1,4 @@
+appId: com.vblast.flipacip
+---
+- runFlow: ../project/create-generic-project.yaml
+- assertVisible: "Layer"

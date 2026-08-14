@@ -1,0 +1,12 @@
+appId: com.vblast.flipaclip
+---
+- tapOn:
+    id: "icon"
+- tapOn: "Audio track"
+- assertVisible: "Audio 1"
+- assertVisible:
+    id: "icon"
+    index: 1
+- assertVisible:
+    id: "icon"
+    index: 1

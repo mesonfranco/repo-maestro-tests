@@ -2,7 +2,7 @@ executionOrder:
   continueOnFailure: true
   flowsOrder:
     - 01-welcome-flow
-    - 02-disable-splash
+    - 02-enabled-studio
     - 03-create-project-layout-1
     - 04-make-movie-layout-1
     - 05-create-project-layout-2

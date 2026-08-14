@@ -1,0 +1,9 @@
+appId: com.vblast.flipaclip
+---
+- assertVisible: "Undo"
+- assertVisible: "Redo"
+- assertVisible: "Copy"
+- assertVisible: "Paste"
+- assertVisible: "Add audio"
+- assertVisible: "Select"
+- assertVisible: "Delete"
