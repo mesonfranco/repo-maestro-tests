@@ -1,0 +1,9 @@
+appId: com.vblast.flipaclip
+---
+- tapOn:
+    id: "ic_drawtool_eraser"
+- assertVisible: "Fade"
+- tapOn: "Brush"
+- assertVisible: "Eraser"
+- assertVisible: "Pen (Choppy)"
+- tapOn: "ic close"
