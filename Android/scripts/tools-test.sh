@@ -1,1 +1,1 @@
-maestro test Android/features/tools/ --device 192.168.1.7:5555 --config "Android/configs/config-order-tools-flows.yaml" --format html-detailed --output Android/reports/tools-test-report.html
+maestro test Android/features/tools/ --device 29211FDH2006X3 --config "Android/configs/config-order-tools-flows.yaml" --format html-detailed --output Android/reports/tools-test-report.html
