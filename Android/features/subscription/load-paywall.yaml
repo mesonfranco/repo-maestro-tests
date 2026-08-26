@@ -2,7 +2,6 @@ appId: com.vblast.flipaclip
 tags:
   - subscription
 ---
-- launchApp: com.vblast.flipaclip
 - tapOn: FlipaClip Plus
 - extendedWaitUntil:
     visible: "Yearly"
