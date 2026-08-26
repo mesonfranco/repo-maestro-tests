@@ -3,7 +3,7 @@ Android/configs/.yaml
 Android/reports/
 Android/scripts/
 iOS/config.yaml
-iOS/smoke-test-report.html
+iOS/reports/
 scope-prod-test.md
 .maestro/baseline/
 .maestro/current/
