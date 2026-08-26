@@ -10,11 +10,13 @@ executionOrder:
     - 06-make-movie-layout-2
     - 07-create-project-layout-3
     - 08-make-movie-layout-3
-    - 09-api-tests
-    - 10-delete-movie
-    - 11-load-paywall
-    - 12-load-ad
-    - 13-login-flipaclip-account
-    - 14-logout-flipaclip-account
+    - 09-load-discover
+    - 10-load-audio-library
+    - 11-load-actors
+    - 12-delete-movie
+    - 13-load-paywall
+    - 14-load-ad
     - 15-edit-project
-    - 16-search-project
+    - 16-login-flipaclip-account
+    - 17-logout-flipaclip-account
+    - 18-search-project
