@@ -1,0 +1,9 @@
+executionOrder:
+  continueOnFailure: true
+  flowsOrder:
+    - 00-create-project
+    - 01-layer-track-context-menu
+    - 02-create-layer-track
+    - 03-create-audio-track
+    - 04-audio-track-context-menu
+    - 05-delete-audio-track

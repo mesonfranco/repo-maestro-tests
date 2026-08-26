@@ -3,6 +3,10 @@ env:
     PROJECT: Generic Project
 ---
 - launchApp: com.vblast.flipaclip
+- extendedWaitUntil:
+    visible: 
+      id: "app_logo"
+    timeout: 10000
 - tapOn: "ic add small"
 - tapOn: "Name your animation"
 - inputText: ${PROJECT}

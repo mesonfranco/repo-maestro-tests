@@ -1,0 +1,23 @@
+executionOrder:
+  continueOnFailure: true
+  flowsOrder:
+    - 00-welcome-flow
+    - 01-enable-new-flipaclip
+    - 02-create-project-layout-1
+    - 03-make-movie-layout-1
+    - 04-create-project-layout-2
+    - 05-make-movie-layout-2
+    - 06-create-project-layout-3
+    - 07-make-movie-layout-3
+    - 08-migrate-project
+    - 09-load-discover
+    - 10-load-audio-library
+    - 11-load-actors
+    - 12-load-ad
+    - 13-login-flipaclip-account
+    - 14-logout-flipaclip-account
+    - 15-delete-movie
+    - 16-search-project 
+    - 17-edit-project
+    - 18-duplicate-project
+    - 19-delete-project

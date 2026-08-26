@@ -1,0 +1,44 @@
+appId: com.vblast.flipaclip
+---
+- runFlow: "../project/create-generic-project.yaml"
+- tapOn:
+    id: "thumbnail"
+    index: 1
+- tapOn:
+    id: "icon"
+    index: 6
+- tapOn:
+    id: "emptyFrameItem"
+- tapOn:
+    id: "emptyFrameItem"
+    index: 1
+- swipe:
+    from: 
+        id: "emptyFrameItem"
+        index: 1
+    direction: LEFT
+    duration: 2000
+- tapOn:
+    id: "emptyFrameItem"
+    index: 1
+- tapOn:
+    id: "emptyFrameItem"
+    index: 2
+- tapOn:
+    id: "emptyFrameItem"
+    index: 3
+- swipe:
+    from: 
+        id: "emptyFrameItem"
+        index: 3
+    direction: LEFT
+    duration: 2000
+- tapOn:
+    id: "emptyFrameItem"
+    index: 1
+- tapOn:
+    id: "emptyFrameItem"
+    index: 2
+- tapOn: "Group"
+- assertVisible:
+    id: "group"

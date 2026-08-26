@@ -1,8 +1,9 @@
 
 Android/configs/.yaml
-iOS/config.yaml
 Android/reports/
-iOS/smoke-test-report.html
+Android/scripts/
+iOS/config.yaml
+iOS/reports/
 scope-prod-test.md
 .maestro/baseline/
 .maestro/current/

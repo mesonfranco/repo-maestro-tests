@@ -1,0 +1,10 @@
+appId: com.vblast.flipaclip
+---
+- tapOn:
+    id: "ic_drawtool_brush"
+- assertVisible: "Brush"
+- tapOn: "Brush"
+- assertVisible: "Pen"
+- assertVisible: "Pen (Choppy)"
+- tapOn: "ic close"
+

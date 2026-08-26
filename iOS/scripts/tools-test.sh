@@ -20,9 +20,9 @@ echo "🚀 Iniciando la suite de pruebas en el dispositivo: $DEVICE_ID"
 # 📊 EJECUCIÓN DETALLADA:
 # Apuntamos a la CARPETA 'iOS/smoke' (sin el archivo .yaml al final) para que tome todos los tests por separado.
 # Guardamos el reporte incluyendo la fecha en el nombre para tener un histórico.
-maestro --device "$DEVICE_ID" test --config "iOS/smoke-flows-order.yaml" \
+maestro --device "$DEVICE_ID" test --config "iOS/configs/config-order-tools-flows.yaml" \
   --format html-detailed \
-  --output "iOS/smoke-test.html"  \
-  iOS/smoke-flows/
+  --output "iOS/reports/tools-test.html"  \
+  iOS/features/draw-tools/
 
 echo "📊 ¡Pruebas terminadas! Abriendo el último reporte..."

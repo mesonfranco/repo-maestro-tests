@@ -1,0 +1,10 @@
+appId: com.vblast.flipaclip
+---
+- runFlow: "../project/create-generic-project.yaml"
+- tapOn:
+    id: "emptyFrameItem"
+- swipe:
+    from: 
+        id: endEar
+    direction: LEFT
+    duration: 800
