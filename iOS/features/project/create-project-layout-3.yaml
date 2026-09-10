@@ -8,6 +8,7 @@ env:
 - inputText: ${PROJECT}
 - tapOn: "intro"
 - tapOn: "Create Project"
+- waitForAnimationToEnd
 - assertVisible: "Studio"
 - assertVisible:
     id: "ic_drawtool_brush"

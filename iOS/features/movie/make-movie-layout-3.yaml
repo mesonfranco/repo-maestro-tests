@@ -2,6 +2,9 @@ appId: com.vblast.flipaclip
 env:
     MOVIE: "Movie "
 ---
+- extendedWaitUntil:
+    visible: "Studio"
+    timeout: 10000
 - swipe:
     start: "50%, 50%"
     end: "70%,70%"
