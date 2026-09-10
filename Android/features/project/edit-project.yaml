@@ -2,9 +2,11 @@ appId: com.vblast.flipaclip
 env:
   PROJECT_NAME: "Project edited"
 ---
-- longPressOn:
-    id: "coverImage"
-    index: 2
+- launchApp: com.vblast.flipaclip
+- extendedWaitUntil:
+    visible: "My Project Layout 3"
+    timeout: 5000
+- longPressOn: "My Project Layout 3"
 - tapOn: "Edit"
 - repeat:
     times: 2
